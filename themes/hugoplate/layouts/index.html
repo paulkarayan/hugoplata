@@ -19,6 +19,23 @@
         word-wrap: break-word;
     }
 
+    /* .thought-bubble {
+      position: relative;
+      max-width: 100%;
+      word-wrap: break-word; 
+      box-sizing: border-box;
+      overflow: hidden;
+    } */
+    
+    /* Mobile-specific styles */
+    @media only screen and (max-width: 600px) {
+      .thought-bubble {
+        padding: 10px; /* Adjust padding as needed */
+        font-size: 14px; /* Adjust font size for better readability */
+        margin: 0 auto; /* Center the thought bubble */
+      }
+    }
+
     .thought-bubble:before, .thought-bubble:after {
         content: '';
         position: absolute;
