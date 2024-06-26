@@ -1,0 +1,174 @@
+{{ define "main" }}
+  <!-- Banner -->
+  {{ with .Params.banner }}
+  <style>
+    .thought-bubble {
+        position: relative;
+        background: #fff;
+        border-radius: 30px;
+        padding: 40px;
+        font-size: 1.2em;
+        border: 2px solid #000;
+        display: inline-block;
+        max-width: 800px; /* Increased max-width */
+        min-height: 50px; /* Added min-height for larger bubbles */
+        margin: 0 auto 0px auto; /* Center and add margin-bottom */
+        text-align: center;
+        line-height: 1.4em;
+        box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+        word-wrap: break-word;
+    }
+
+    .thought-bubble:before, .thought-bubble:after {
+        content: '';
+        position: absolute;
+        border-style: solid;
+    }
+
+    .thought-bubble:before {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        bottom: -30px;
+        left: 50%;
+        background: #fff;
+        border: 2px solid #000;
+        margin-left: -15px;
+    }
+
+    .thought-bubble:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        bottom: -50px;
+        left: 50%;
+        background: #fff;
+        border: 2px solid #000;
+        margin-left: -7.5px;
+    }
+
+    header {
+        text-align: center;
+        position: relative;
+    }
+
+    header img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #thinker {
+        margin-top: -50px; /* Adjust this value to move the thought bubble closer or further from the image */
+    }
+  </style>
+
+    <section class="section pt-14">
+      <div class="container">
+        <div class="row justify-center">
+          <div class="lg:col-7 md:col-9 mb-8 text-center">
+            <h1 class="mb-4 text-h3 lg:text-h1">
+              {{ .title | markdownify }}
+            </h1>
+            <p class="mb-8">
+              {{ .content | markdownify }}
+            </p> 
+            
+            <!-- pk haxored -->
+            <header class="banner">
+              <pre class="banner reg-banner">
+                  <div class="thought-bubble" id="quote-bubble">
+                      Your quote here.
+                  </div>
+              </pre> 
+            </header>
+
+
+            {{ with .button }}
+              {{ if .enable }}
+                <a
+                  class="btn btn-primary"
+                  href="{{ .link | absURL }}"
+                  {{ if strings.HasPrefix .link `http` }}
+                    target="_blank" rel="noopener"
+                  {{ end }}>
+                  {{ .label }}
+                  <i class="fa fa-arrow-right pl-2"></i>
+                </a>
+              {{ end }}
+            {{ end }}
+          </div>
+          <div class="col-12">
+            {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto lg:!max-w-[800px]" "DisplayXL" "800x" ) }}
+          </div>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+  <!-- /Banner -->
+
+  <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const quotes = [
+            "Strive to make yourself obsolete; if you can do this\nyou will always have an important role to play.",
+        ];
+        // "Floating in the sea of birth and death\nThere is nothing to grasp.",
+        // "Another insightful quote.",
+        //     "Yet another quote to inspire visitors.",
+        //     "A shorter quote.",
+        //     "This is a longer quote that might be too long for the bubble, so let's make sure it's truncated."
+
+        function getRandomQuote() {
+            const maxLength = 100;
+            const validQuotes = quotes.filter(quote => quote.length <= maxLength);
+            return validQuotes[Math.floor(Math.random() * validQuotes.length)];
+        }
+
+        document.getElementById('quote-bubble').innerText = getRandomQuote();
+    });
+</script>
+
+  <!-- Features -->
+  {{ range $i, $e:= .Params.features }}
+    <section class="section-sm {{ if (modBool $i 2) }}bg-gradient{{ end }}">
+      <div class="container">
+        <div class="row items-center justify-between">
+          <div
+            class="mb:md-0 {{ if not (modBool $i 2) }}
+              md:order-2
+            {{ end }} md:col-5 mb-6">
+            {{ partial "image" (dict "Src" .image "Alt" "feature image" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}
+          </div>
+          <div
+            class="{{ if not (modBool $i 2) }}
+              md:order-1
+            {{ end }} md:col-7 lg:col-6">
+            <h2 class="mb-4">
+              {{ .title | markdownify }}
+            </h2>
+            <p class="mb-8 text-lg">
+              {{ .content | markdownify }}
+            </p>
+            <ul>
+              {{ range .bulletpoints }}
+                <li class="relative mb-4 pl-6">
+                  <i class="fa fa-check absolute left-0 top-1.5"></i>
+                  {{ . | markdownify }}
+                </li>
+              {{ end }}
+            </ul>
+            {{ with .button }}
+              {{ if .enable }}
+                <a class="btn btn-primary mt-6" href="{{ .link | absURL }}">
+                  {{ .label }}
+                  <i class="fa fa-arrow-right pl-2"></i>
+                </a>
+              {{ end }}
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+  <!-- /Features -->
+
+{{ end }}

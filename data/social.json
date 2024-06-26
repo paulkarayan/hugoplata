@@ -1,0 +1,24 @@
+{
+  "main": [
+    {
+      "name": "opto",
+      "icon": "fa fa-briefcase",
+      "link": "https://www.optoinvest.com/"
+    },
+    {
+      "name": "twitter",
+      "icon": "fab fa-twitter",
+      "link": "https://twitter.com/pgpkarayan"
+    },
+    {
+      "name": "github",
+      "icon": "fab fa-github",
+      "link": "https://www.github.com/paulkarayan"
+    },
+    {
+      "name": "linkedin",
+      "icon": "fab fa-linkedin",
+      "link": "https://www.linkedin.com/in/paulkarayan/"
+    }
+  ]
+}

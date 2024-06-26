@@ -1,0 +1,12 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+pageRef = "/"
+weight = 1
+
+
+[[main]]
+name = "Blog"
+pageRef = "/blog"
