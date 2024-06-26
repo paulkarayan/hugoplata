@@ -3,7 +3,7 @@
 banner:
   title: "Paul @pk Pereyda Karayan"
   content: "(the unauthorised autobiography)"
-  image: "/images/thinker.png"
+  image: "/images/think 2.jpg"
 
 # Features
 features:

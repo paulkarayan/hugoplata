@@ -60,24 +60,22 @@
     #thinker {
         margin-top: -50px; /* Adjust this value to move the thought bubble closer or further from the image */
     }
+    .custom-padding {
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+
+    }
   </style>
 
     <section class="section pt-14">
       <div class="container">
         <div class="row justify-center">
           <div class="lg:col-7 md:col-9 mb-8 text-center">
-            <h1 class="mb-4 text-h3 lg:text-h1">
-              {{ .title | markdownify }}
-            </h1>
-            <p class="mb-8">
-              {{ .content | markdownify }}
-            </p> 
             
             <!-- pk haxored -->
             <header class="banner">
               <pre class="banner reg-banner">
                   <div class="thought-bubble" id="quote-bubble">
-                      Your quote here.
                   </div>
               </pre> 
             </header>
@@ -100,6 +98,16 @@
           <div class="col-12">
             {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto lg:!max-w-[800px]" "DisplayXL" "800x" ) }}
           </div>
+
+          <div class="lg:col-7 md:col-9 mb-8 text-center">
+            <h1 class="mb-4 text-h3 lg:text-h1">
+              {{ .title | markdownify }}
+            </h1>
+            <p class="mb-8">
+              {{ .content | markdownify }}
+            </p> 
+          </div>
+
         </div>
       </div>
     </section>
@@ -110,12 +118,20 @@
     document.addEventListener('DOMContentLoaded', (event) => {
         const quotes = [
             "Strive to make yourself obsolete; if you can do this\nyou will always have an important role to play.",
+            "Floating in the sea of birth and death\nThere is nothing to grasp.",
+            "Don’t seek enlightenment,\n just drop your illusions.",
+            "Yet magic and hierarchy\narise from the same source\nand this source has a null pointer.",
+            "understanding is not primary",
+            "Change is life. Stagnation is death.\n If you don't change, you die.",
+            "Living is more like wrestling than dancing...",
+            "Don’t wait for inspiration\nIt comes while working.",
+            "In this world\nWe walk on the roof of hell\nGazing at flowers",
+            "Accept whatever comes to you woven in the pattern of your destiny,\n for what could more aptly fit your needs?",
+            "Before enlightenment, chop wood, carry water.\n After enlightenment, chop wood, carry water.",
+            "Sitting quietly, doing nothing,\n spring comes, and grass grows by itself",
+            "Zen is not effort.\n Effort is tension, effort is work, effort is to achieve something.\n Zen is not something to achieve.",
+            "If your mind is fixed on a certain spot,\nit will be seized by that spot, and\nno activities can be performed efficiently."
         ];
-        // "Floating in the sea of birth and death\nThere is nothing to grasp.",
-        // "Another insightful quote.",
-        //     "Yet another quote to inspire visitors.",
-        //     "A shorter quote.",
-        //     "This is a longer quote that might be too long for the bubble, so let's make sure it's truncated."
 
         function getRandomQuote() {
             const maxLength = 100;
