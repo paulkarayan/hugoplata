@@ -1,23 +1,19 @@
 ---
-title: "How to build an Application with modern Technology"
-meta_title: ""
-description: "this is meta description"
-date: 2022-04-04T05:00:00Z
-image: "/images/image-placeholder.png"
-categories: ["Software"]
-author: "John Doe"
-tags: ["software", "tailwind"]
+title: "Slaying Software Zombies with LLMs (and lesser incantations)"
+meta_title: "Slaying Software Zombies with LLMs (and lesser incantations)"
+description: "dealing with metacode (tests, docs, bugs, requirements etc...) that are no longer completely accurate (thus, zombies) due to not being in sync with the product & its code updating."
+date: 2023-12-16
+image: "/images/zombies.png"
+categories: ["Software", "Blog"]
+author: "pk"
+tags: ["talks", "testing", "LLM", "metacode", "documentation"]
 draft: false
 ---
 
-Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+Please enjoy my PyOhio talk on slaying software zombies! 
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+I'm talking about a very real problem of dealing with metacode (tests, docs, bugs, requirements etc...) that are no longer completely accurate (thus, zombies) due to not being in sync with the product & its code updating. 
 
-## Creative Design
+AI, particularly LLMs, provide some interesting mechanisms to address keeping said zombies at bay.
 
-Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
-
-> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+https://www.youtube.com/watch?v=4kcLgHDQicg&t=13217s

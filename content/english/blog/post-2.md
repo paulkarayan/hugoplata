@@ -1,23 +1,18 @@
 ---
-title: "How to build an Application with modern Technology"
-meta_title: ""
-description: "this is meta description"
-date: 2022-04-04T05:00:00Z
-image: "/images/image-placeholder.png"
-categories: ["Technology", "Data"]
-author: "Sam Wilson"
-tags: ["technology", "tailwind"]
+title: "Provocative Post about Planning Products!"
+meta_title: "Customer-Centric Development: Provocative Insights for Better Products"
+description: "Explore bold strategies for prioritizing customer experience in product development. Learn how to avoid overplanning and focus on what truly matters to your customers for successful software products."
+date: 2022-02-01
+image: "/images/programmer daycare.png"
+categories: ["Software", "PM"]
+author: "pk"
+tags: ["product management", "planning"]
 draft: false
 ---
 
-Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+Some provocative recommendations in this post:
+[The size of your backlog is inversely proportional to your product's success](https://bitbytebit.substack.com/p/the-size-of-your-backlog-is-inversely)
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
 
-## Creative Design
-
-Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
-
-> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+While I think you ought to be synthesizing more than this suggests, the overplanning and under-reliance
+on what your customers actually do with your software is a massive fail. It takes some real courage to put the customer front and centre, at all times.

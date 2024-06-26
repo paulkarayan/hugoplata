@@ -1,12 +1,12 @@
 ---
-title: "Getting it done as a high energy perhaps hyperactive person"
-meta_title: ""
-description: "this is meta description"
-date: 2024-06-25
+title: "Harnessing High Energy: Tips for Staying Productive"
+meta_title: "Maximizing Productivity as a High-Energy Professional"
+description: "Learn effective strategies to boost productivity and maintain focus as a high-energy professional. Discover tips for structuring work, maintaining balance, and leveraging your strengths to achieve success."
+date: 2024-06-23
 image: "/images/adhd post.png"
 categories: ["Blog", "Work Strategies"]
 author: "pk"
-tags: ["adhd", "neurodivergent", "olddudetalking"]
+tags: ["adhd", "neurodivergent", "old dude yells at clouds", "Professional Development"]
 draft: false
 ---
 
@@ -36,6 +36,6 @@ i'm the marines who landed on the beaches, and he's the army that secures those 
 
 9. automate to avoid errors, not for scale. i can be given a 20 item checklist and the second time i do it, i'll skip items 7 and 18 because i get bored and distracted. computers dgaf. 
 
-10. https://press.stripe.com/scaling-people this book is amazing. 80% of what you need to do, you don't need to reinvent. you can get the 80/20 solution out of here and implement it. fix it when it's broken or tweak it to your needs. but dont get bogged down reinventing the wheel. the final chapter on managing yourself is also amazing.
+10. [Scaling People by Claire Hughes Johnson](https://press.stripe.com/scaling-people) - this book is amazing. 80% of what you need to do, you don't need to reinvent. you can get the 80/20 solution out of here and implement it. fix it when it's broken or tweak it to your needs. but dont get bogged down reinventing the wheel. the final chapter on managing yourself is also amazing.
 
 Finally... remember that you're not going to be able to force yourself into being something you're not. Embrace who you are. Surf the waves instead of swimming against them. Some people won't get it, and that's just a lovely signal that you need to move on.
