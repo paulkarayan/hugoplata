@@ -140,7 +140,7 @@ function initialize() {
   var mapOptions = {
     center: nottingham,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
-    backgroundColor: "#000",
+    backgroundColor: "#201e21",
     zoom: 15,
     panControl: !1,
     zoomControl: !0,

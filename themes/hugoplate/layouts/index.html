@@ -2,88 +2,84 @@
   <!-- Banner -->
   {{ with .Params.banner }}
   <style>
-    .thought-bubble {
-        position: relative;
-        background: #fff;
-        border-radius: 30px;
-        padding: 40px;
-        font-size: 1.2em;
-        border: 2px solid #000;
-        display: inline-block;
-        max-width: 800px; /* Increased max-width */
-        min-height: 50px; /* Added min-height for larger bubbles */
-        margin: 0 auto 0px auto; /* Center and add margin-bottom */
-        text-align: center;
-        line-height: 1.4em;
-        box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
-        word-wrap: break-word;
+    /* Override padding for .pt-14 class */
+    .pt-14 {
+      padding-top: 0.1rem !important; /* Override the padding */
     }
-
-    /* .thought-bubble {
+  
+    .thought-bubble {
       position: relative;
-      max-width: 100%;
-      word-wrap: break-word; 
-      box-sizing: border-box;
-      overflow: hidden;
-    } */
-    
+      background: #fff;
+      border-radius: 30px;
+      padding: 30px; /* Reduced padding by ~15% */
+      font-size: 1.02em; /* Reduced font size by ~15% */
+      border: 2px solid #000;
+      display: inline-block;
+      max-width: 680px; /* Reduced max-width by ~15% */
+      min-height: 50px; /* Added min-height for larger bubbles */
+      margin: 0 auto 0px auto; /* Center and add margin-bottom */
+      text-align: center;
+      line-height: 1.4em;
+      box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+      word-wrap: break-word;
+    }
+  
     /* Mobile-specific styles */
     @media only screen and (max-width: 600px) {
       .thought-bubble {
-        padding: 10px; /* Adjust padding as needed */
-        font-size: 14px; /* Adjust font size for better readability */
+        padding: 8.5px; /* Adjust padding as needed */
+        font-size: 12px; /* Adjust font size for better readability */
         margin: 0 auto; /* Center the thought bubble */
       }
     }
-
+  
     .thought-bubble:before, .thought-bubble:after {
-        content: '';
-        position: absolute;
-        border-style: solid;
+      content: '';
+      position: absolute;
+      border-style: solid;
     }
-
+  
     .thought-bubble:before {
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        bottom: -30px;
-        left: 50%;
-        background: #fff;
-        border: 2px solid #000;
-        margin-left: -15px;
+      width: 25.5px; /* Reduced by 15% */
+      height: 25.5px; /* Reduced by 15% */
+      border-radius: 50%;
+      bottom: -25.5px; /* Reduced by 15% */
+      left: 50%;
+      background: #fff;
+      border: 2px solid #000;
+      margin-left: -12.75px; /* Reduced by 15% */
     }
-
+  
     .thought-bubble:after {
-        width: 15px;
-        height: 15px;
-        border-radius: 50%;
-        bottom: -50px;
-        left: 50%;
-        background: #fff;
-        border: 2px solid #000;
-        margin-left: -7.5px;
+      width: 12.75px; /* Reduced by 15% */
+      height: 12.75px; /* Reduced by 15% */
+      border-radius: 50%;
+      bottom: -42.5px; /* Reduced by 15% */
+      left: 50%;
+      background: #fff;
+      border: 2px solid #000;
+      margin-left: -6.375px; /* Reduced by 15% */
     }
-
+  
     header {
-        text-align: center;
-        position: relative;
+      text-align: center;
+      position: relative;
     }
-
+  
     header img {
-        display: block;
-        margin: 0 auto;
+      display: block;
+      margin: 0 auto;
     }
-
+  
     #thinker {
-        margin-top: -50px; /* Adjust this value to move the thought bubble closer or further from the image */
+      margin-top: -50px; /* Adjust this value to move the thought bubble closer or further from the image */
     }
+  
     .custom-padding {
       padding-top: 0 !important;
       padding-bottom: 0 !important;
-
     }
   </style>
-
     <section class="section pt-14">
       <div class="container">
         <div class="row justify-center">
