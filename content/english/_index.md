@@ -21,7 +21,7 @@ features:
       label: "Get Started Now"
       link: "#"
 
-  - title: "The Top Reasons to Find PK Interesting"
+  - title: "But wait, there's more!"
     image: "/images/cat.jpg"
     content: "PK loves product discovery, building software around data, and business development/forward deployed engineering. But what else is a PK good for?"
     bulletpoints:
@@ -29,7 +29,7 @@ features:
       - "Frequently outshined by wife and 3 young children"
       - "Reads, listens to lots of music, and info dumps on the unwitting"
       - "Bricoleur, 3x engineer, and Digital Warlord"
-      - "Is better dressed when feline"
+      - "Considers an AI meld of him with his cat a good idea for a professional website"
     button:
       enable: true
       label: "Read Blog Now"
