@@ -2,8 +2,8 @@
 title: "How to use just one task tracker without lock-in; well sorta"
 meta_title: "How to use just one task tracker without lock-in; well sorta"
 description: ""
-date: 2023-11-23
-image: "/images/linear.jpg"
+date: 2024-07-05
+image: "/images/linear.jpeg"
 categories: ["Blog", "Software"]
 author: "pk"
 tags: ["software", "bricolage", "linear"]
