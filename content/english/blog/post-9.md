@@ -35,7 +35,7 @@ if not linear_api_token:
     console.print("Error: LINEAR_API_KEY environment variable not set.", style="red")
     exit(1)
 
-linear_team_id = '175aec26-4739-4b94-a214-568a2178e76c' # PK Personal
+linear_team_id = '175xxxxxxxxxxxxxxxxxx' # PK Personal Team
 linear_project_id = 'None'
 linear_api_url = 'https://api.linear.app/graphql'
 
