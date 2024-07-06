@@ -27,9 +27,9 @@ features:
     bulletpoints:
       - "Writes lively Python and lurks at 10th Planet Jiu Jitsu San Mateo"
       - "Frequently outshined by wife and 3 young children"
-      - "Reads, listens to lots of music, and info dumps on the unwitting"
+      - "Reads (sci fi, science, history, non-fiction), listens to lots of music (metal, punk, hardcore, electronic, classical - among other things), and info dumps on the unwitting (ye shall see all in the blog posts)"
       - "Bricoleur, 3x engineer, and Digital Warlord"
-      - "Considers an AI meld of him with his cat a good idea for a professional website"
+      - "Considers an AI melded image of him with his cat a good idea for a professional website"
     button:
       enable: true
       label: "Read Blog Now"
