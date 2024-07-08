@@ -3,7 +3,7 @@ title: "Aliases I have known and loved"
 meta_title: "Aliases I have known and loved"
 description: ""
 date: 2024-07-07
-image: ""
+image: "images/Gnu-bash-logo.png"
 categories: ["Blog", "Software", "Gear"]
 author: "pk"
 tags: ["software", "time savings", "gear", "tek"]

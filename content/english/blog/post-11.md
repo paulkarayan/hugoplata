@@ -1,9 +1,9 @@
 ---
-title: "Aliases I have known and loved"
-meta_title: "Aliases I have known and loved"
+title: "All about how I use VSCode - especially the integrated terminal"
+meta_title: "All about how I use VSCode - especially the integrated terminal"
 description: ""
 date: 2024-07-07
-image: ""
+image: "images/vscode-logo.png"
 categories: ["Blog", "Software", "Gear"]
 author: "pk"
 tags: ["software", "time savings", "gear", "tek"]
