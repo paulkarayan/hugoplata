@@ -56,7 +56,7 @@ i:tags
 
 We're ready to rock. This screen recording shows how defect injection works with this setup. 
 
-![Link in case you miss it](/videos/bedbug_example.mov)
+[Link in case you miss it](/videos/bedbug_example.mov)
 
 <div style="max-width:100%; width:600px; margin: 0 auto;">
   <video width="100%" controls>
