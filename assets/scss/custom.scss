@@ -1,1 +1,9 @@
 // Add your own custom styles here
+.blog-card-image {
+    max-width: 100%; /* Ensure it scales down with the container */
+    max-height: 300px; /* Set your desired max height */
+    width: auto; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the set dimensions without stretching */
+  }
+  
