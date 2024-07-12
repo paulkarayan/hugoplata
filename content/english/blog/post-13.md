@@ -19,4 +19,5 @@ The Caucasus region, straddling Eastern Europe and Western Asia, has a history t
 Put simply, we are not white people or from Europe. Leaving aside its pseudoscientific & racist origins, the inaccurate overloading of "Caucasian" serves to also erase the complex tapestry of European ancestries. Let's use terms that honour, instead of appropriates, the names of other groups of people.
 
 Sincerely,
+
 Paul Pereyda Karayan
