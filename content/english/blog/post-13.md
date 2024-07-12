@@ -10,6 +10,10 @@ tags: ["notsoftware", "caucasian", "humour"]
 draft: false
 ---
 
+*An Open Letter*
+
+To whom it may concern,
+
 I am writing to address an important issue regarding the usage of the term "Caucasian" in contemporary discourse. The term is used to describe people of European descent or "white people". In fact, this is actually a misnomer and represents a form of cultural appropriation.
 
 The word "Caucasian" refers to the people of the Caucasus region, which June Pachuta Farris of the University of Chicago called "a small place of great contrasts", noting "the diversity of its peoples (more than 40 ethnic groups), languages (50+ languages from both small indigenous language families and from the wider Indo-European, Mongolic, Semitic and Turkic language families), and religions (Islam, Christianity, Judaism, Buddhism)". 
