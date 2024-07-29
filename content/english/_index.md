@@ -12,10 +12,11 @@ features:
     content: ""
     bulletpoints:
       - "15+ year Silicon Valley career"
-      - "Duke University and UC Berkeley (Organic Chemistry) degrees - lightly used"
       - "Currently CISO at Opto Investments (www.optoinvest.com)"
       - "Startup Generalist across business and software engineering roles. Solves hard problems that matter(tm)"
       - "Early employee at winning companies like LiveOps, The Climate Corporation, Addepar, Primer.ai, and Opto Investments (>$5 Billion of market value, so far)"
+      - "Duke University and UC Berkeley (Organic Chemistry) degrees - lightly used"
+      - "Native of Los Angeles, CA"
     button:
       enable: false
       label: "Get Started Now"
