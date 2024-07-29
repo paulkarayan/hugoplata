@@ -2,7 +2,7 @@
 title: "Making Southern boiled peanuts"
 meta_title: "Making Southern boiled peanuts"
 description: ""
-date: 2024-07-28
+date: 2024-06-28
 image: "/images/peanuts.png"
 categories: ["Blog", "Food"]
 author: "pk"
