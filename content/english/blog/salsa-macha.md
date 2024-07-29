@@ -6,7 +6,7 @@ date: 2024-07-28
 image: "/images/salsa-macha.png"
 categories: ["Blog", "Food"]
 author: "pk"
-tags: ["food"]
+tags: ["food", "cooking", "raw peanuts", "mexican"]
 draft: false
 ---
 

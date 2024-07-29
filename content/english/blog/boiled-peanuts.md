@@ -6,7 +6,7 @@ date: 2024-06-28
 image: "/images/peanuts.png"
 categories: ["Blog", "Food"]
 author: "pk"
-tags: ["food"]
+tags: ["food", "cooking", "raw peanuts", "southern"]
 draft: false
 ---
 
