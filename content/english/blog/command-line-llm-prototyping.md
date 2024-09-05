@@ -30,7 +30,7 @@ Now comes the fun part. I've got a nice setup in vs code so I can quickly run th
 
 So, what I do is take the system prompt and put it in one file (e.g. system-prompt.txt) and take the data (e.g. data.txt) that I'm working up and put it in a second file. I can simply use the cat program to cat those files together and pipe them into LLM.
 
-```
+```bash
 cat ~/system-prompt.txt ~/data.txt | llm
 ```
 
