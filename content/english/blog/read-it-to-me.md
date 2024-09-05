@@ -3,7 +3,7 @@ title: "read my blog posts to me, please? now with command line browser cleanup 
 meta_title: "read my blog posts to me, please?"
 description: ""
 date: 2024-09-04
-image: "/images/linear.jpeg"
+image: "/images/think 2.jpeg"
 categories: ["Blog", "Software"]
 author: "pk"
 tags: ["software", "bricolage", "linear"]

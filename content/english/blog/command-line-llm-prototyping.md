@@ -3,7 +3,7 @@ title: "llm - for command line LLM Prototyping"
 meta_title: "llm - for command line LLM Prototyping"
 description: ""
 date: 2024-08-05
-image: "/images/linear.jpeg"
+image: "/images/think 2.jpeg"
 categories: ["Blog", "Software"]
 author: "pk"
 tags: ["software", "bricolage", "linear"]
