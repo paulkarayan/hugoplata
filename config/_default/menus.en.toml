@@ -6,7 +6,12 @@ name = "Home"
 pageRef = "/"
 weight = 1
 
-
 [[main]]
 name = "Blog"
 pageRef = "/blog"
+
+[[main]]
+name = "XML"
+pageRef = "www.paulkarayan.com/index.xml"
+
+
