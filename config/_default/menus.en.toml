@@ -10,8 +10,5 @@ weight = 1
 name = "Blog"
 pageRef = "/blog"
 
-[[main]]
-name = "XML"
-pageRef = "www.paulkarayan.com/index.xml"
 
 
