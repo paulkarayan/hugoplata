@@ -1,4 +1,4 @@
-<footer class="bg-theme-light dark:bg-darkmode-theme-light">
+<div class="bg-theme-light dark:bg-darkmode-theme-light">
   <div class="container">
     <div class="row items-center py-10">
       <div class="lg:col-3 mb-8 text-center lg:mb-0 lg:text-left">
@@ -30,6 +30,7 @@
           {{ end }}
         </ul>
       </div>
+      
       <div class="lg:col-3 mb-8 text-center lg:mb-0 lg:mt-0 lg:text-right">
         <ul class="social-icons">
           {{ range site.Data.social.main }}
@@ -47,7 +48,131 @@
       </div>
     </div>
   </div>
+
   <div class="border-border dark:border-darkmode-border border-t py-7">
+    <div class="text-light dark:text-darkmode-light container center">
+        <div id="mc_embed_shell" style="display: flex; justify-content: center;">
+            <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+            <style type="text/css">
+              #mc_embed_signup {
+                  background: #fff;
+                  clear: left;
+                  font: 14px Helvetica, Arial, sans-serif;
+                  width: 100%;
+                  max-width: 500px;
+                  margin: 0 auto;
+                  padding: 20px;
+                  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+              }
+
+              .dark #mc_embed_signup {
+                  background: #000;
+                  color: #fff;
+              }
+
+              /* Light mode input styling */
+              .mc-field-group input {
+                  width: 100%;
+                  color: #000; /* Ensure text is visible in light mode */
+                  background-color: #fff; /* White background for light mode */
+                  border: 1px solid #ccc; /* Light border */
+                  padding: 10px;
+                  border-radius: 5px;
+              }
+
+              /* Dark mode input styling */
+              .dark .mc-field-group input {
+                  color: #fff; /* White text for dark mode */
+                  background-color: #333; /* Dark background for input */
+                  border: 1px solid #555; /* Dark border */
+              }
+
+              .dark .mc-field-group input::placeholder {
+                  color: #ccc; /* Light gray placeholder text for dark mode */
+              }
+
+              .mc-field-group input::placeholder {
+                  color: #888; /* Gray placeholder text for light mode */
+              }
+
+              /* Center button */
+              .clear.foot input[type="submit"] {
+                  display: block;
+                  margin: 0 auto;
+                  background-color: #444; /* Button background for light mode */
+                  color: #fff;
+                  border: 1px solid #666;
+                  padding: 10px 20px;
+                  border-radius: 5px;
+                  cursor: pointer;
+              }
+
+              .clear.foot input[type="submit"]:hover {
+                  background-color: #555;
+              }
+
+              /* Dark mode button */
+              .dark .clear.foot input[type="submit"] {
+                  background-color: #333; /* Button background for dark mode */
+                  color: #fff;
+                  border: 1px solid #555;
+              }
+
+              .dark .clear.foot input[type="submit"]:hover {
+                  background-color: #444;
+              }
+          </style>
+          
+            <div id="mc_embed_signup">
+                <form action="https://paulkarayan.us14.list-manage.com/subscribe/post?u=f26dffc9787480cab8bbe947c&amp;id=cb5a70bc98&amp;f_id=0076e4e0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                    <div id="mc_embed_signup_scroll">
+                        <h2 style="text-align: center;">Get new posts via email</h2>
+                        <div class="mc-field-group">
+                            <label for="mce-EMAIL">Email Address</label>
+                            <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="">
+                        </div>
+                        <div id="mce-responses" class="clear foot">
+                            <div class="response" id="mce-error-response" style="display: none;"></div>
+                            <div class="response" id="mce-success-response" style="display: none;"></div>
+                        </div>
+                        <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                            <input type="text" name="b_f26dffc9787480cab8bbe947c_cb5a70bc98" tabindex="-1" value="">
+                        </div>
+                        <div class="optionalParent">
+                          <div class="clear foot">
+                            <input type="submit" 
+                                   style="display: block; margin: 0 auto; background-color: #444; color: #fff; border: 1px solid #666; border-radius: 5px; cursor: pointer;" 
+                                   name="subscribe" 
+                                   id="mc-embedded-subscribe" 
+                                   class="button" 
+                                   value="Subscribe">
+                        </div>
+                        </div>
+                    </div>
+                </form>
+                <p style="text-align: center;">
+                    <a href="http://eepurl.com/iYy3WI" title="Mailchimp - email marketing made easy and fun">
+                        <span style="display: inline-block; background-color: transparent; border-radius: 4px;">
+                            <img class="refferal_badge" src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg" alt="Intuit Mailchimp" style="width: 220px; height: 40px;">
+                        </span>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+<script type="text/javascript">
+    (function($) {
+        window.fnames = new Array();
+        window.ftypes = new Array();
+        fnames[0] = 'EMAIL';
+        ftypes[0] = 'email';
+    }(jQuery));
+    var $mcj = jQuery.noConflict(true);
+</script>
+
+
     <div class="text-light dark:text-darkmode-light container text-center">
       <p>
         {{ site.Params.copyright | markdownify }}
