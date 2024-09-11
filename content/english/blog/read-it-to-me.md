@@ -2,7 +2,7 @@
 title: "read my blog posts to me, please? now with command line browser cleanup action!"
 meta_title: "read my blog posts to me, please?"
 description: ""
-date: 2024-09-04
+date: 2024-07-6
 image: "/images/think-2.jpg"
 categories: ["Blog", "Software"]
 author: "pk"
