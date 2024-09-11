@@ -1,6 +1,6 @@
 ---
 title: "Aqua and Hotkeys to write blogs posts quickly - and then Loom AI makes a surprise appearance!"
-meta_title: "rAqua and Hotkeys to write blogs posts quickly - and then Loom AI makes a surprise appearance!"
+meta_title: "Aqua and Hotkeys to write blogs posts quickly - and then Loom AI makes a surprise appearance!"
 description: ""
 date: 2024-09-08
 image: "/images/aqua.png"
