@@ -9,6 +9,9 @@ weight = 1
 [[main]]
 name = "Blog"
 pageRef = "/blog"
+weight = 2
 
-
-
+[[main]]
+name = "Art"
+pageRef = "/blog/random-art-i-made/"
+weight = 3

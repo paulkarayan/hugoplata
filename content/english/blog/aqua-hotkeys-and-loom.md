@@ -6,7 +6,7 @@ date: 2024-09-08
 image: "/images/aqua.png"
 categories: ["Blog", "Software"]
 author: "pk"
-tags: ["software", "bricolage", "linear"]
+tags: ["software", "bricolage", "aqua", "transcription", "hotkeys", "loom", "AI"]
 draft: false
 ---
 
