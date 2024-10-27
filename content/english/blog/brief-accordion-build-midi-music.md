@@ -10,6 +10,8 @@ tags: ["software", "bricolage", "art", "accordions", "zydeco", "cajun", "instrum
 draft: false
 ---
 
+The chronicles some of the work I've done to produce an electronic / computer-mediated cajun accordion instrument that isnt $$$ and explores some of the user experience (UX) possibilities - including that the squeezebox's physical limitations are actually a gift for the musician!
+
 I made a [longer version](https://paulkarayan.com/blog/accordions-electronic-midi-music/) of this so I don't have to provide background here. i set the date to 2023-10-26 so it won't show up. and i'll link to it here when i finish it!
 
 ## Examining the Diatonic Melodeon
