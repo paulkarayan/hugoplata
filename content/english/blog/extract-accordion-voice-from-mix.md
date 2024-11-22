@@ -22,12 +22,13 @@ extraction. Then, I just use Wind.
 For LaLa - i do wind extraction.
 
 This happens to work on the quality of file I get when I extract from Youtube videos using 
-ezmp3.cc. Let's see an example here:
+ezmp3.cc. Let's see an example here where we take from the [original song - "Beau Jocque Boogie"](https://www.youtube.com/watch?v=rKi8Nlvqy4M):
 
+https://youtube.com/shorts/hPNtwx_v8Ys?feature=share
 
 
 Though the usual trick i use to screen record using quicktime and pull the UI sounds (which 
-is `brew install --cask background-music` doesn't work with Moises which is actually the best
+is `brew install --cask background-music`) doesn't work with Moises which is actually the best
 one!
 
 
