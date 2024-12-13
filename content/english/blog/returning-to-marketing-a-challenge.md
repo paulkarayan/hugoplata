@@ -7,7 +7,7 @@ image: "/images/linkedin.png"
 categories: ["Blog", "Software", "Marketing", "Tools"]
 author: "pk"
 tags: ["software", "marketing", "DIY"]
-draft: true
+draft: false
 ---
 
 # A Practical Challenge - Marketing Myself

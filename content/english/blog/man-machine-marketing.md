@@ -3,7 +3,7 @@ title: "Man/Machine/Marketing - applying lessons from DevOps and Finance product
 meta_title: "Man/Machine/Marketing - applying lessons from DevOps and Finance product development to digital marketing"
 description: "Man/Machine/Marketing - applying lessons from DevOps and Finance product development to digital marketing"
 date: 2024-12-12
-image: "/images/manmachine.png"
+image: "/images/manmachine.jpg"
 categories: ["Blog", "Software", "Marketing", "Tools"]
 author: "pk"
 tags: ["software", "marketing", "DIY"]
