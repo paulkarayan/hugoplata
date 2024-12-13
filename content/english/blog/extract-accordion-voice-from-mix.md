@@ -9,6 +9,16 @@ author: "pk"
 tags: ["software", "bricolage", "art", "accordions", "zydeco", "cajun", "instruments"]
 draft: false
 ---
+# update
+
+This is an even better version using Moises' more expensive tier for
+a lovely Horace Trahan tune:
+https://studio.youtube.com/video/TAZw8pwWvRQ/edit
+
+and hicks wagon wheel special:
+https://studio.youtube.com/video/FOS_2Iqg7xY/edit
+
+# original
 
 So much of learning the cajun accordion is by ear, so I wondered if there was a good way to just
 extract that sweet Zydeco accordion sound from a mix or song? Turns out there is. There are
@@ -30,5 +40,7 @@ https://youtube.com/shorts/hPNtwx_v8Ys?feature=share
 Though the usual trick i use to screen record using quicktime and pull the UI sounds (which 
 is `brew install --cask background-music`) doesn't work with Moises which is actually the best
 one!
+
+
 
 
