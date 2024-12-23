@@ -13,7 +13,10 @@ draft: false
 *Don’t seek enlightenment, just drop your illusions.*  
 - Sawaki
 
-An explicit piece of acceptance to shout into the void:
+This weekend I was very inspired by this video:
+https://www.youtube.com/watch?v=rPovnp3Dly4
+
+So I wanted to shout this into the void:
 My mood cycling may be such that I continue to be a "spiky", inconsistent contributor who is only really successful when feeling inspired. This has to be *ok* or I will collapse under the weight of my own expectations.
 
 From which comes these observations:
@@ -29,3 +32,5 @@ My prayer, as it were, is that I can eliminate the goals and desires I've placed
 
 
 With my love to you all for listening to my nonsense this year. It has been an incredible journey of self-discovery that was completely unexpected and beautiful.
+
+
