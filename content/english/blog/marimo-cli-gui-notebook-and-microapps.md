@@ -67,3 +67,9 @@ def __():
         return result.stdout.strip()
     return bash, mo, subprocess
 ```
+
+## Conclusion
+
+I can't wait to see what the Marimo team comes up with next. Really useful stuff and I'm already a big fan. Maybe I can use it on some of the ideas I had for Jupyter in 2020 that just didn't have the tech quite ready for it?
+
+Let me know what other things you think we could build with this - happy to hack on stuff together!
