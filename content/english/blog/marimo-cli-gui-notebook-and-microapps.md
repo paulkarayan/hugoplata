@@ -19,7 +19,7 @@ I gave a talk in 2020 about using [Jupyter Notebooks beyond data science](https:
 Here's my pitch:
 
 ```
-Imagine that with the effort it takes to create a Jupyter notebook or write a Python scrip, with minimal extra effort you also get:
+Imagine that with the effort it takes to create a Jupyter notebook or write a Python script, with minimal extra effort you also get:
 - a “mini app” that runs as a gui OR runs as a script you trigger via CLI OR as a notebook
 - that runs either locally or hosted on the web
 - is equally happy to run with a human in the loop OR work fully automatically (such as in CI/CD)
