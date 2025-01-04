@@ -2,7 +2,7 @@
 title: "SlackZen - just leave (tm) - and the noise of the modern office"
 meta_title: "SlackZen - just leave (tm)"
 description: "SlackZen - just leave (tm). experience to clean feeling of just leaving a bunch of slack channels"
-date: 2024-01-03
+date: 2025-01-03
 image: "images/slackzen.png"
 categories: ["Blog", "Software", "Gear"]
 author: "pk"
