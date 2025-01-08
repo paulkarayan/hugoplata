@@ -13,10 +13,10 @@ draft: false
 
 This is an even better version using Moises' more expensive tier for
 a lovely Horace Trahan tune:
-https://studio.youtube.com/video/TAZw8pwWvRQ/edit
+https://www.youtube.com/shorts/TAZw8pwWvRQ
 
 and hicks wagon wheel special:
-https://studio.youtube.com/video/FOS_2Iqg7xY/edit
+https://www.youtube.com/shorts/FOS_2Iqg7xY
 
 # original
 
