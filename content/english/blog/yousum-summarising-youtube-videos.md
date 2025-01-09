@@ -2,7 +2,7 @@
 title: "YouSum - summarising long YouTube videos to get right to the point!"
 meta_title: "YouSum - summarising long YouTube videos to get right to the point!"
 description: "YouSum - summarising long YouTube videos to get right to the point!"
-date: 2025-1-8
+date: 2025-01-08
 image: "/images/yousum.png"
 categories: ["Blog", "Software", "Marketing", "Tools"]
 author: "pk"
