@@ -7,7 +7,7 @@ image: "/images/quoter.png"
 categories: ["Blog", "Fun", "Productivity"]
 author: "pk"
 tags: ["quotes", "pipedream", "workflows"]
-draft: true
+draft: false
 ---
 
 I enjoy this Daily Zen quotes site - a Slack reminder pushes me to explore my belief system and also produces many of the quotes I include here:
