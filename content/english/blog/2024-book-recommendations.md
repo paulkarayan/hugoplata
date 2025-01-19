@@ -25,6 +25,7 @@ Scaling People - goes onto my shortlist of excellent business books. a very prac
 
 # Honourable mentions
 - Lean Marketing
+- Titanium Noir
 - We Are Legion, We are Bob (reread it with milo)
 - A Scanner Darkly (the graphic novel)
 - Lazarus (a graphic novel)
