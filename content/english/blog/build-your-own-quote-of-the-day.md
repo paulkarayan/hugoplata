@@ -23,6 +23,28 @@ Here's what the flow looks like:
 
 ![1](/images/quoter.png)
 
+and some code for pipedream:
+
+```
+import random
+
+def handler(pd: "pipedream"):
+    print(pd.steps["trigger"]["context"]["id"])
+
+    quotes = [
+        "Just Do(nt qu)It",
+        "Never delegate understanding. –Charles Eames",
+        "Zen mind is not Zen mind.\nThat is, if you are attached to Zen mind,\nThen you have a problem,\nAnd your way is very narrow.\nThrowing away Zen mind\nIs correct Zen mind.\nOnly keep the question,\n“What is the best way of helping other people?”\n\nSeung Sahn",
+        "Don’t seek enlightenment, just drop your illusions.\n- Sawaki",
+        # Add all your existing quotes here...
+    ]
+
+    return random.choice(quotes)
+
+```
+
+in other cases i've had an LLM make some commentary of the relevance of the quote. cute!
+
 # make moar quotes
 
 i store the quotes in text files that i copy/paste in, which doesnt make for easy use in python programs - which want lists of strings in my usual thinking.
