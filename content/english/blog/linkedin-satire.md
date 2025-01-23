@@ -31,7 +31,7 @@ example: I ran a half marathon in the rain with a sprained ankle. here's what it
 
 # satire ahead
 
-I wrote a program to generate LinkedIn satricial content which i will post every thursday.
+I wrote a program to generate LinkedIn satirical content which i will post every thursday.
 Because i'm a thought leader, because "it'd be too taboo to come out as a narcissist".
 
 here's an example:
