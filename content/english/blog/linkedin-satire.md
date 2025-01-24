@@ -55,3 +55,4 @@ So, whether you’re managing a team, tackling a big project, or just trying to 
 
 please enjoy my linkedin now and every thursday:
 
+https://www.linkedin.com/in/paulkarayan/
