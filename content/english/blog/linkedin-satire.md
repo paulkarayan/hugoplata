@@ -3,7 +3,7 @@ title: "linkedin satire - making light of marketing demons and their buzzwords"
 meta_title: "linkedin satire - making light of marketing demons and their buzzwords"
 description: "linkedin satire - making light of marketing demons and their buzzwords"
 date: 2025-01-23
-image: "/images/li-knight.png"
+image: "/images/quoter.png"
 categories: ["Blog", "Fun"]
 author: "pk"
 tags: ["quotes", "comedy", "workflows"]
@@ -31,7 +31,7 @@ example: I ran a half marathon in the rain with a sprained ankle. here's what it
 
 # satire ahead
 
-I wrote a program to generate LinkedIn satirical content which i will post every thursday.
+I wrote a program to generate LinkedIn satricial content which i will post every thursday.
 Because i'm a thought leader, because "it'd be too taboo to come out as a narcissist".
 
 here's an example:
