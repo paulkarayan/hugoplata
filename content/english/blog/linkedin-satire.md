@@ -3,7 +3,7 @@ title: "linkedin satire - making light of marketing demons and their buzzwords"
 meta_title: "linkedin satire - making light of marketing demons and their buzzwords"
 description: "linkedin satire - making light of marketing demons and their buzzwords"
 date: 2025-01-23
-image: "/images/quoter.png"
+image: "/images/li-knight.png"
 categories: ["Blog", "Fun"]
 author: "pk"
 tags: ["quotes", "comedy", "workflows"]
