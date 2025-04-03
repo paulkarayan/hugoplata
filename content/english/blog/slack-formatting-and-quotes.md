@@ -36,7 +36,7 @@ This looks fine, but your JSON parser will choke on it.
 
 Not really. At time of writing, Slack doesn’t provide a setting to turn this off in messages — but code blocks (i.e. wrapping in ```) will work.
 
-you could also set some formatting rules in your editor, or do something like this:
+you could also set some formatting rules in your editor (see what i did with CSS in this page???), or do something like this:
 ```
 def fix_quotes(text):
     return text.replace("“", '"').replace("”", '"').replace("‘", "'").replace("’", "'")
