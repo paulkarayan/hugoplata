@@ -10,6 +10,12 @@ tags: ["software", "time savings", "gear", "tek", "slack"]
 draft: false
 ---
 
+Beautiful Edit: 
+I've upgraded to macOS 15.4 (24E248) and the slack native client appears to be honouring the system config!
+> defaults write NSGlobalDomain
+Thank you to Michael Schwegel!
+
+Prior:
 If you’ve ever copied and pasted code snippets to and from Slack, only to find that your code chokes when you excute it, you're not alone.
 
 The largest culprit? Slack’s auto-formatting of plain double quotes (") into “smart quotes” (“ and ”). We got bit by one during a high stakes database operation just this week!
