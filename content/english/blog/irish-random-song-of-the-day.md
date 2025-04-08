@@ -2,7 +2,7 @@
 title: "Irish song of the day - with google sheets and pipedream"
 meta_title: "Learning an Irish song of the day - every day - with google sheets and pipedream"
 description: "Learning an Irish song of the day - every day - with google sheets and pipedream"
-date: 2025-04-7
+date: 2025-04-07
 image: "/images/hatao.png"
 categories: ["Blog", "Software", "music"]
 author: "pk"
