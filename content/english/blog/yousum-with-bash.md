@@ -4,7 +4,7 @@ meta_title: "YouSum - summarising long YouTube videos to get right to the point!
 description: "YouSum on the Command line - a CLI function for summarising long YouTube videos to get right to the point!"
 date: 2025-01-27
 image: "/images/yousum.png"
-categories: ["Blog", "Software"]
+categories: ["Software"]
 author: "pk"
 tags: ["software", "marketing", "DIY"]
 draft: false

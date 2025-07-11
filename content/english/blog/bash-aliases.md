@@ -1,10 +1,10 @@
 ---
 title: "Aliases I have known and loved"
-meta_title: "Aliases I have known and loved"
-description: ""
+meta_title: "Essential Bash Aliases for Git, Kubernetes & AWS Productivity"
+description: "Time-saving bash aliases and zsh configurations for developers working with Git, K8s, and AWS"
 date: 2024-07-07
 image: "images/Gnu-bash-logo.png"
-categories: ["Blog", "Software"]
+categories: ["Software"]
 author: "pk"
 tags: ["software", "time savings", "gear", "tek"]
 draft: false

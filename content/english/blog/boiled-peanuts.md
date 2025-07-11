@@ -1,10 +1,10 @@
 ---
 title: "Making Southern boiled peanuts"
-meta_title: "Making Southern boiled peanuts"
-description: ""
+meta_title: "Southern Star Anise Boiled Peanuts Recipe - Instant Pot Method"
+description: "Transform raw peanuts into Southern delicacy with Lee Bros cookbook's star anise boiled peanut recipe"
 date: 2024-06-28
 image: "/images/peanuts.png"
-categories: ["Blog", "Food"]
+categories: ["Food"]
 author: "pk"
 tags: ["food", "cooking", "raw peanuts", "southern"]
 draft: false

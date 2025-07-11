@@ -4,7 +4,7 @@ meta_title: "Maximizing Productivity as a High-Energy Professional"
 description: "Learn effective strategies to boost productivity and maintain focus as a high-energy professional. Discover tips for structuring work, maintaining balance, and leveraging your strengths to achieve success."
 date: 2024-06-23
 image: "/images/adhd post.png"
-categories: ["Blog", "Software"]
+categories: ["Software"]
 author: "pk"
 tags: ["adhd", "neurodivergent", "old dude yells at clouds", "Professional Development"]
 draft: false

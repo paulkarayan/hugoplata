@@ -4,7 +4,7 @@ meta_title: "build your own quote of the day"
 description: "build your own quote of the day"
 date: 2025-01-18
 image: "/images/quoter.png"
-categories: ["Blog", "Fun", "Productivity"]
+categories: ["Fun", "Productivity"]
 author: "pk"
 tags: ["quotes", "pipedream", "workflows"]
 draft: false

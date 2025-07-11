@@ -1,10 +1,10 @@
 ---
 title: "How to use just one task tracker without lock-in; well sorta"
-meta_title: "How to use just one task tracker without lock-in; well sorta"
-description: ""
+meta_title: "Sync Linear & Things3: Python Script for Task Management Freedom"
+description: "Python script to sync tasks between Linear and Things3, avoiding vendor lock-in while keeping privacy"
 date: 2024-07-05
 image: "/images/linear.jpeg"
-categories: ["Blog", "Software"]
+categories: ["Software"]
 author: "pk"
 tags: ["software", "bricolage", "linear"]
 draft: false

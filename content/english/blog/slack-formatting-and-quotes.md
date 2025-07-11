@@ -4,7 +4,7 @@ meta_title: "That one where a slack formatting issue screws you again..."
 description: "That one where a slack formatting issue screws you again..."
 date: 2025-04-03
 image: "images/smartquotes.png"
-categories: ["Blog", "Software"]
+categories: ["Software"]
 author: "pk"
 tags: ["software", "time savings", "gear", "tek", "slack"]
 draft: false
@@ -22,7 +22,7 @@ The largest culprit? Slack’s auto-formatting of plain double quotes (") into �
 
 While this might make your writing look prettier in chat (hot take: it doesn't), it wreaks havoc in programming. Code expects plain ASCII characters, and these curly quotes are entirely different Unicode characters. They can silently break scripts, JSON, shell commands, and config files — and are especially maddening because they look so similar.
 
-## What’s Actually Happening?
+## What's actually happening?
 
 Slack tries to help by auto-replacing straight quotes with typographically correct curly quotes. This is arguably great for English prose, but disastrous for code — especially when you’re copying something like:
 
@@ -38,7 +38,7 @@ This looks fine, but your JSON parser will choke on it.
 ^^ This is what you wanted. Typography be damned! 
 
 
-## Is There a Fix?
+## Is there a fix?
 
 Not really. At time of writing, Slack doesn’t provide a setting to turn this off in messages — but code blocks (i.e. wrapping in ```) will work.
 

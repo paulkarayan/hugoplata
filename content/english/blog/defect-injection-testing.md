@@ -1,10 +1,10 @@
 ---
 title: "Defect Injection testing - the lost art of 'Bedbugging'"
-meta_title: "Defect Injection testing - the lost art of Bedbugging"
-description: ""
+meta_title: "Defect Injection Testing: How to Test Your Tests with Bedbugging"
+description: "Learn how defect injection (bedbugging) ensures your tests catch bugs using MITMProxy & Chaos Engineering"
 date: 2024-07-07
 image: "images/bedbug.jpg"
-categories: ["Blog", "Software"]
+categories: ["Software"]
 author: "pk"
 tags: ["software", "testing", "qa"]
 draft: false
@@ -26,7 +26,7 @@ as skipping tests when no one is watching.
 
 Besides happenstance and heroism, I've wondered how one could programmatically address this problem (and slim down test suites in the process). I took inspiration from [Chaos Engineering](https://github.com/dastergon/awesome-chaos-engineering) a la [Netflix's Chaos Monkey](https://github.com/Netflix/chaosmonkey) to demonstrate one method: defect injection aka bedbugging.
 
-## Defect Injection demo - the setup
+## Defect injection demo - the setup
 
 Let's start with the Conduit application [a Medium clone](https://github.com/gothinkster/realworld) and a suite of [Cypress](https://www.cypress.io) E2E tests (link to code is coming) that cover some basic functionality. 
 To create defects, we're going to mangle the responses & response codes from the APIs that we hit during the Cypress tests. The expectation is 
@@ -52,7 +52,7 @@ MITMProxy can be scripted to do some pretty fascinating stuff automatically. We'
 i:tags
 ```
 
-## Demonstrating Defect Injection for fun and profit
+## Demonstrating defect injection for fun and profit
 
 We're ready to rock. This screen recording shows how defect injection works with this setup. 
 

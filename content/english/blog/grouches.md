@@ -4,7 +4,7 @@ meta_title: "Loveable grouches & the slurpee machine in heaven"
 description: "Loveable grouches & the slurpee machine in heaven!"
 date: 2025-02-05
 image: "/images/grouch.png"
-categories: ["Blog"]
+categories: ["Life"]
 author: "pk"
 tags: ["death"]
 draft: false

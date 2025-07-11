@@ -4,7 +4,7 @@ meta_title: "Midi Concertina - my second instrument attempt"
 description: "Midi Concertina - my second instrument attempt!"
 date: 2025-02-17
 image: "/images/midicon.jpg"
-categories: ["Blog", "Software", "Music"]
+categories: ["Software", "Music"]
 author: "pk"
 tags: ["software", "bricolage", "art", "accordions", "zydeco", "cajun", "instruments"]
 draft: false

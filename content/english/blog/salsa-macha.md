@@ -1,10 +1,10 @@
 ---
 title: "Making Salsa Macha"
-meta_title: "Making Salsa Macha"
-description: ""
+meta_title: "Authentic Salsa Macha Recipe: Mexican Chili Oil with Peanuts"
+description: "Rick Bayless-inspired Salsa Macha recipe - a smoky, spicy Mexican condiment from Veracruz"
 date: 2024-07-28
 image: "/images/salsa-macha.png"
-categories: ["Blog", "Food"]
+categories: ["Food"]
 author: "pk"
 tags: ["food", "cooking", "raw peanuts", "mexican"]
 draft: false

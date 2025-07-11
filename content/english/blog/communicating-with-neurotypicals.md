@@ -1,10 +1,10 @@
 ---
 title: "LLMs for Translating Silicon Valley to MBA speak"
-meta_title: "LLMs for Translating Silicon Valley to MBA speak"
-description: ""
+meta_title: "LLMs for Translating Silicon Valley to MBA Speak"
+description: "Use AI to bridge communication gaps between neurodivergent directness and workplace diplomacy"
 date: 2024-07-01
 image: "/images/llm-sv-to-normie.png"
-categories: ["Blog", "Software"]
+categories: ["Software"]
 author: "pk"
 tags: ["adhd", "neurodivergent", "old dude yells at clouds", "Professional Development"]
 draft: false

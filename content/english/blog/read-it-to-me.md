@@ -1,10 +1,10 @@
 ---
 title: "read my blog posts to me, please? now with command line browser cleanup action!"
-meta_title: "read my blog posts to me, please?"
-description: ""
+meta_title: "Convert Web Pages to Audio: Command Line Text-to-Speech Guide"
+description: "Use w3m and macOS 'say' command to listen to blog posts while multitasking - simple CLI solution"
 date: 2024-07-6
 image: "/images/think-2.jpg"
-categories: ["Blog", "Software"]
+categories: ["Software"]
 author: "pk"
 tags: ["software", "bricolage", "linear"]
 draft: false

@@ -4,7 +4,7 @@ meta_title: "Translating Opto into English"
 description: "Translating Opto into English!"
 date: 2025-03-05
 image: "/images/whatwould.jpeg"
-categories: ["Blog"]
+categories: ["Software", "Finance"]
 author: "pk"
 tags: ["software", "finance"]
 draft: false

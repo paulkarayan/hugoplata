@@ -4,7 +4,7 @@ meta_title: "2024 - book recommendations / a look back"
 description: "2024 - book recommendations / a look back"
 date: 2025-01-18
 image: "/images/adhd post.png"
-categories: ["Blog", "Fun"]
+categories: ["Fun"]
 author: "pk"
 tags: ["books"]
 draft: false

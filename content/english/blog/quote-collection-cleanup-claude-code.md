@@ -1,10 +1,10 @@
 ---
 title: "When Your Quote Collection Looks Like a Junk Drawer"
-meta_title: "Cleaning Up Quote Collection Chaos with Claude Code"
-description: "How I used Claude Code to transform 1300+ lines of inconsistently formatted quotes into a clean, parseable format for my quote-of-the-day system"
+meta_title: "How to Clean Up 1300+ Quotes with Claude Code - Automated Text Processing"
+description: "Learn how Claude Code automated the cleanup of 1300+ messy quotes into a standardized format. Transform years of copy-pasted wisdom into a working quote-of-the-day system with AI-powered text processing."
 date: 2025-07-11
 image: "/images/clean-desk.png"
-categories: ["Blog", "Software", "Productivity"]
+categories: ["Software", "Productivity"]
 author: "pk"
 tags: ["quotes", "claude-code", "automation", "text-processing", "tools"]
 draft: false

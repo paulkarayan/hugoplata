@@ -1,10 +1,10 @@
 ---
 title: "llm - for command line LLM Prototyping"
-meta_title: "llm - for command line LLM Prototyping"
-description: ""
+meta_title: "LLM Command Line Tool: Rapid AI Prototyping with VS Code Integration"
+description: "Speed up LLM prototyping with the 'llm' CLI tool - iterate prompts quickly using VS Code hotkeys"
 date: 2024-08-05
 image: "/images/think-2.jpg"
-categories: ["Blog", "Software"]
+categories: ["Software"]
 author: "pk"
 tags: ["software", "bricolage", "linear"]
 draft: false

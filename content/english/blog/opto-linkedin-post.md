@@ -4,7 +4,7 @@ meta_title: "Private Investments are Broken"
 description: "Private Investments are Broken!"
 date: 2025-02-15
 image: "/images/broken.png"
-categories: ["Blog"]
+categories: ["Software", "Finance"]
 author: "pk"
 tags: ["software", "finance"]
 draft: false

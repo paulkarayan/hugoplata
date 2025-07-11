@@ -4,7 +4,7 @@ meta_title: "Customer-Centric Development: Provocative Insights for Better Produ
 description: "Explore bold strategies for prioritizing customer experience in product development. Learn how to avoid overplanning and focus on what truly matters to your customers for successful software products."
 date: 2022-02-01
 image: "/images/programmer daycare.png"
-categories: ["Blog", "Software"]
+categories: ["Software"]
 author: "pk"
 tags: ["product management", "planning"]
 draft: false

@@ -4,7 +4,7 @@ meta_title: "Building a Cajun Accordion I can live with... [mega edition]"
 description: "Building a Cajun Accordion I can live with..."
 date: 2023-10-26
 image: "/images/numpads.png"
-categories: ["Blog", "Software", "Music", "Art"]
+categories: ["Software", "Music", "Art"]
 author: "pk"
 tags: ["software", "bricolage", "art", "accordions", "zydeco", "cajun", "instruments"]
 draft: false
@@ -12,14 +12,14 @@ draft: false
 
 I made a longer version of this so I can publish a snappier one, too. the actual date was 10/26/2024 but i'm going to put it a year ago so it doesnt show up.
 
-## In which I discover Cajun Accordions
+## In which I discover Cajun accordions
 
 As reported elsewhere, I am thoroughly obsessed with Zydeco music. The central player in Zydeco is the Cajun Accordion, which runs at around $2500 for a decent instrument... and they're typically made by hand by a handful of craftsmen/musicians in East Texas / Southwest Louisiana. Each may produce perhaps 50-100 in a lifetime, and supply is limited on the typical websites.
 
 After months of looking, I have found a beautiful instrument but in the interim, I examined some curiosities about this instrument.
 
 
-## Examining the Diatonic Melodeon
+## Examining the diatonic melodeon
 
 Without getting into too many details, Cajun Accordions preferred by Zydeco players are typically: 
 - single-row, 10 left-hand button accordions for melody
@@ -60,13 +60,13 @@ so i purchased two CIDOO V-21 that can be easily repogrammed by Via (such as: ht
 
 ![photo of numpads](/images/numpads.png)
 
-## intial ideas
+## Initial ideas
 
-### on scales
+### On scales
 
 I just have been programming the numpads to be diatonic. i may have 18 keys but it does feel weird to make it chromatic if i'm looking at my midi microkey keyboard
 
-### separate push / pull
+### Separate push / pull
 In my first configuration I place them side by side and play 10 "buttons" with both hands.
 
 i use the same layout as the buttons on the accordion, so:
@@ -74,7 +74,7 @@ i use the same layout as the buttons on the accordion, so:
 
 this is pretty fun by i do get a bit confused between the two sides... not any more so than pushing/pulling, though!
 
-### full scale, duplicated hands
+### Full scale, duplicated hands
 
 i wanted to see if chording/octaving, as well as trills, might be a little easier to pull off if i could duplicate the keys across hands. this means that i've gone for a scale but truncated it a bit.
 

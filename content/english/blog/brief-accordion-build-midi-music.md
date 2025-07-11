@@ -4,7 +4,7 @@ meta_title: "Building a Cajun Accordion I can live with... [brief edition]"
 description: "Building a Cajun Accordion I can live with..."
 date: 2024-10-26
 image: "/images/numpads.png"
-categories: ["Blog", "Software", "Music", "Art"]
+categories: ["Software", "Music", "Art"]
 author: "pk"
 tags: ["software", "bricolage", "art", "accordions", "zydeco", "cajun", "instruments"]
 draft: false
@@ -17,7 +17,7 @@ I made a [longer version](https://paulkarayan.com/blog/accordions-electronic-mid
 ## Cut to the chase
 Here's me playing the "milestone" [MVP instrument](https://youtube.com/shorts/43MQ-XB_eUg?feature=share)
 
-## Examining the Diatonic Melodeon
+## Examining the diatonic melodeon
 
 My obessesion with Zydeco has entered a new phase where I have both a) gotten an accordion I can live with / afford and b) continued to explore electronic and new user experiences (UX) to perform the music
 
@@ -58,7 +58,7 @@ i wanted to see if chording/octaving, as well as trills, might be a little easie
 
 they both have their advantages.
 
-## a physical manifestation - future approach
+## A physical manifestation - future approach
 
 There's also the problem of the tonal quality so unless I sample the new beautiful instrument, I'm going to be stuck with crappy VSTs… so perhaps going to pull the reed box out of a cheap Chinese accordion i found on EBay, and place it onto a tuning table or other pressure source. Then operate the bellow to provide air pressure using motors that are managed by microcontroller, and subsequently controlled by numpads/keyboards/whathaveyou actually play the instrument.
 

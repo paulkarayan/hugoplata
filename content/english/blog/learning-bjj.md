@@ -1,10 +1,10 @@
 ---
 title: "Living is more like wrestling than dancing..."
-meta_title: "Living is more like wrestling than dancing..."
-description: ""
+meta_title: "Life Lessons from BJJ: Progress, Persistence & Wrestling with Reality"
+description: "How Brazilian Jiu-Jitsu teaches us that success comes from doing ordinary things extraordinarily long"
 date: 2024-09-06
 image: "/images/bjj.jpg"
-categories: ["Blog", "Not Software"]
+categories: ["Not Software"]
 author: "pk"
 tags: ["not software", "bricolage"]
 draft: false

@@ -4,7 +4,7 @@ meta_title: "No Goals, Just Clouds: Observations from a Spiky Mind"
 description: "No Goals, Just Clouds: Observations from a Spiky Mind"
 date: 2024-12-23
 image: "/images/zen.png"
-categories: ["Blog", "Not Software"]
+categories: ["Not Software"]
 author: "pk"
 tags: ["self-discovery", "side projects", "curiosity", "creativity", "mental health", "grappling", "music", "meditation"]
 draft: false

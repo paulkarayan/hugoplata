@@ -4,7 +4,7 @@ meta_title: "Extract just the Accordion out of a song / mix"
 description: "Extract just the Accordion out of a song / mix"
 date: 2024-11-21
 image: "/images/moises.png"
-categories: ["Blog", "Software", "Music"]
+categories: ["Software", "Music"]
 author: "pk"
 tags: ["software", "bricolage", "art", "accordions", "zydeco", "cajun", "instruments"]
 draft: false

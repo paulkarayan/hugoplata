@@ -4,13 +4,13 @@ meta_title: "Zydeco: my new metal?"
 description: "Zydeco: my new metal?"
 date: 2024-10-06
 image: "/images/beau-jocque.jpg"
-categories: ["Blog", "Software", "Music", "Art"]
+categories: ["Software", "Music", "Art"]
 author: "pk"
 tags: ["software", "bricolage", "art", "accordions", "zydeco", "cajun", "instruments"]
 draft: false
 ---
 
-## Francophone music takes a sharp turn South
+## Francophone music takes a sharp turn south
 
 Alcest's most recent album, Les Chants De L’Aurore, was released on June 21, 2024 - and 
 co-incided with my listening to The Bosstones and some of the only folk music I can tolerate: Neko Case. I think something in the Spotify algo(s) blended this all up and threw me into 

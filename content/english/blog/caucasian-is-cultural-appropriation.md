@@ -1,10 +1,10 @@
 ---
 title: "Misuse of the term 'Caucasian' is cultural appropriation"
-meta_title: "Misuse of the term 'Caucasian' is cultural appropriation"
-description: ""
+meta_title: "Why 'Caucasian' Is Cultural Appropriation: An Open Letter"
+description: "How misusing 'Caucasian' erases the diverse cultures of the actual Caucasus region"
 date: 2024-01-01
 image: "images/juta.jpg"
-categories: ["Blog", "Not Software"]
+categories: ["Not Software"]
 author: "pk"
 tags: ["notsoftware", "caucasian", "humour"]
 draft: false
