@@ -4,7 +4,7 @@ meta_title: "Slaying Software Zombies with LLMs (and lesser incantations)"
 description: "dealing with metacode (tests, docs, bugs, requirements etc...) that are no longer completely accurate (thus, zombies) due to not being in sync with the product & its code updating."
 date: 2023-12-16
 image: "/images/zombies.png"
-categories: ["Software", "Blog"]
+categories: ["Blog", "Software"]
 author: "pk"
 tags: ["talks", "testing", "LLM", "metacode", "documentation"]
 draft: false

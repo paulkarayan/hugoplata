@@ -4,7 +4,7 @@ meta_title: "Defect Injection testing - the lost art of Bedbugging"
 description: ""
 date: 2024-07-07
 image: "images/bedbug.jpg"
-categories: ["Blog", "Software", "QA"]
+categories: ["Blog", "Software"]
 author: "pk"
 tags: ["software", "testing", "qa"]
 draft: false

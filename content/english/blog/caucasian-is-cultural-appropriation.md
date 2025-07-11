@@ -4,7 +4,7 @@ meta_title: "Misuse of the term 'Caucasian' is cultural appropriation"
 description: ""
 date: 2024-01-01
 image: "images/juta.jpg"
-categories: ["Blog", "Other"]
+categories: ["Blog", "Not Software"]
 author: "pk"
 tags: ["notsoftware", "caucasian", "humour"]
 draft: false

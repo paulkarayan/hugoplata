@@ -4,7 +4,7 @@ meta_title: " Marimo - a great new tool for building micro- & internal apps"
 description: " Marimo - a great new tool for building micro- & internal apps"
 date: 2025-01-01
 image: "images/marimo.svg"
-categories: ["Blog", "Software", "Gear"]
+categories: ["Blog", "Software"]
 author: "pk"
 tags: ["software", "time savings", "gear", "tek"]
 draft: false

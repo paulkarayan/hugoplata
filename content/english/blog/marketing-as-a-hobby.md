@@ -4,7 +4,7 @@ meta_title: "Why Marketing? Seems like an odd hobby..."
 description: "Why Marketing? Seems like an odd hobby..."
 date: 2024-12-15
 image: "/images/personal-brand.png"
-categories: ["Blog", "Software", "Marketing"]
+categories: ["Blog", "Software"]
 author: "pk"
 tags: ["software", "marketing", "DIY", "weirdly personal but still salesy"]
 draft: false

@@ -4,7 +4,7 @@ meta_title: "LLMs for Translating Silicon Valley to MBA speak"
 description: ""
 date: 2024-07-01
 image: "/images/llm-sv-to-normie.png"
-categories: ["Blog", "Work Strategies"]
+categories: ["Blog", "Software"]
 author: "pk"
 tags: ["adhd", "neurodivergent", "old dude yells at clouds", "Professional Development"]
 draft: false

@@ -4,7 +4,7 @@ meta_title: "Langfuse and LLM evals in practice"
 description: "Langfuse and LLM evals in practice"
 date: 2025-03-19
 image: "images/langfuse_logo.jpeg"
-categories: ["Blog", "Software", "Gear"]
+categories: ["Blog", "Software"]
 author: "pk"
 tags: ["software", "LLM", "QA", "evals"]
 draft: false

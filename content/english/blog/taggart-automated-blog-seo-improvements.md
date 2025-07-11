@@ -5,7 +5,7 @@ description: "Discover how AI can optimize your blog's titles, meta descriptions
 tags: ["AI", "software tools", "marketing strategies", "digital marketing", "personal reflections"]
 date: 2025-01-11
 image: "/images/taggart.png"
-categories: ["Blog", "Software", "Marketing", "Tools"]
+categories: ["Blog", "Software"]
 author: "pk"
 draft: false
 ---
@@ -36,7 +36,7 @@ meta_title: "Taggart - automation blog improvements using AI"
 description: "Taggart - automation blog improvements using AI"
 date: 2024-1-8
 image: "/images/taggart.png"
-categories: ["Blog", "Software", "Marketing", "Tools"]
+categories: ["Blog", "Software"]
 author: "pk"
 tags: ["software", "marketing", "DIY"]
 draft: false

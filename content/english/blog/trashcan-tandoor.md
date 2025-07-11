@@ -4,7 +4,7 @@ meta_title: "Trashcan Tandoori Oven"
 description: "Trashcan Tandoori Oven"
 date: 2023-12-04
 image: "/images/tandoor.jpg"
-categories: ["Other"]
+categories: ["Blog", "Not Software"]
 author: "pk"
 tags: ["Cooking", "Build"]
 draft: false

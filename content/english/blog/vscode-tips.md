@@ -4,7 +4,7 @@ meta_title: "All about how I use VSCode - especially the integrated terminal"
 description: ""
 date: 2024-07-07
 image: "images/vscode-logo.png"
-categories: ["Blog", "Software", "Gear"]
+categories: ["Blog", "Software"]
 author: "pk"
 tags: ["software", "time savings", "gear", "tek"]
 draft: false

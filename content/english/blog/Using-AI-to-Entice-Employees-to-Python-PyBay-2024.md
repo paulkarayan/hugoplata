@@ -4,7 +4,7 @@ meta_title: "Using AI to Entice Employees to Python — Paul Pereyda Karayan & E
 description: "Using AI to Entice Employees to Python — Paul Pereyda Karayan & Emmanuel Uwakwe (PyBay 2024)"
 date: 2024-10-28
 image: "/images/secret-snake.png"
-categories: ["Software", "Blog"]
+categories: ["Blog", "Software"]
 author: "pk"
 tags: ["talks", "AI", "LLM", "teaching", "democratisation"]
 draft: false

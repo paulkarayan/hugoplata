@@ -4,7 +4,7 @@ meta_title: "Thoughts on Return-To-Office and Agile Manifesto"
 description: "Thoughts on Return-To-Office and Agile Manifesto"
 date: 2024-12-16
 image: "/images/office.png"
-categories: ["Blog", "Software", "Office", "Education"]
+categories: ["Blog", "Software"]
 author: "pk"
 tags: ["software", "WFO", "Learning", "weirdly personal but still salesy"]
 draft: false

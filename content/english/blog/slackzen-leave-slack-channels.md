@@ -4,7 +4,7 @@ meta_title: "SlackZen - just leave (tm)"
 description: "SlackZen - just leave (tm). experience to clean feeling of just leaving a bunch of slack channels"
 date: 2025-01-03
 image: "images/slackzen.png"
-categories: ["Blog", "Software", "Gear"]
+categories: ["Blog", "Software"]
 author: "pk"
 tags: ["software", "time savings", "gear", "marimo", "notebooks"]
 draft: false

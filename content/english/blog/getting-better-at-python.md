@@ -4,7 +4,7 @@ meta_title: "Getting better at Python / becoming a professional develope"
 description: "Getting better at Python / becoming a professional develope!"
 date: 2025-02-01
 image: "/images/python-mega.png"
-categories: ["Blog", "Software", "Recruiting"]
+categories: ["Blog", "Software"]
 author: "pk"
 tags: ["software", "marketing", "DIY"]
 draft: false

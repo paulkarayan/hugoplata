@@ -4,7 +4,7 @@ meta_title: "Using Slack Shortcuts and LLMs to question everything"
 description: "Using Slack Shortcuts and LLMs to question everything"
 date: 2025-03-30
 image: "images/pushbot.png"
-categories: ["Blog", "Software", "Gear"]
+categories: ["Blog", "Software"]
 author: "pk"
 tags: ["software", "LLM", "tools", "push"]
 draft: false
