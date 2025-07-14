@@ -2,8 +2,8 @@
 title: "From Internal Shortcut to Business Critical: When Automation Becomes Infrastructure"
 meta_title: "When Your Hack Becomes Critical Infrastructure - Automation Lifecycle Management"
 description: "That Slack bot you built in a weekend? It's now processing 10k requests daily and nobody knows how it works. Learn how to manage the transition from personal tool to critical infrastructure."
-date: 2025-01-13
-image: "/images/blog/automation-infrastructure.jpg"
+date: 2025-07-13
+image: "/images/blog/automation-infrastructure.png"
 categories: ["Software", "DevOps", "Engineering"]
 author: "pk"
 tags: ["automation", "infrastructure", "devops", "shadow-it", "technical-debt", "governance", "scaling"]
