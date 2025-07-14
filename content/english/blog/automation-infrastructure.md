@@ -12,7 +12,7 @@ draft: false
 
 # From Internal Shortcut to Business Critical: When Automation Becomes Infrastructure
 
-**Summary**: That Slack bot you built in a weekend? It's now processing 10k requests daily and nobody knows how it works.
+That Slack bot you built in a weekend? It's now processing 10k requests daily and nobody knows how it works.
 
 **Key Takeaways**:
 - Personal tools become team dependencies faster than you think
@@ -52,6 +52,7 @@ That deployment bot I mentioned? Here's what it actually cost us:
 - **Immeasurable** damage to team trust in automation
 
 The real cost isn't the downtime. It's that people stop building helpful tools because they're afraid of creating more undocumented dependencies.
+(also i made up these numbers. i think.)
 
 ## From Personal Tool to Team Process: A Migration Framework
 
@@ -59,7 +60,7 @@ After breaking production one too many times, here's the framework I use:
 
 **Monitor Usage** (Week 1-2)
 - Add basic logging. Who's using it? How often?
-- If it's >5 people or >daily use, it's not personal anymore
+- If it's >5 people or daily use, it's not personal anymore
 
 **Document While It's Fresh** (Week 3)
 - Write a README. Include the "why" not just the "how"
@@ -99,7 +100,7 @@ Track automation sprawl with simple metrics:
 The hard decisions:
 
 **Formalize when:**
-- More than 10 people depend on it
+- More than a few people depend on it
 - It touches production systems
 - Downtime would block critical work
 - The manual alternative is genuinely painful
