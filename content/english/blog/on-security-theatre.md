@@ -2,7 +2,7 @@
 title: "Security Theatre & What Actually Protects Your Code"
 meta_title: "Security Theatre vs Real Security: What Actually Protects Your Systems"
 description: "Your SOC 2 badge won't stop hackers. Here's what will - a hard look at security theater versus practices that actually work."
-date: 2025-07-14
+date: 2025-07-13
 image: "/images/security-noh.png"
 categories: ["Software", "Engineering"]
 author: "pk"
