@@ -3,11 +3,11 @@
   {{ if $image }}
     {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-6 w-full rounded blog-card-image") }}
   {{ end }}
-  <h4 class="mb-3 text-lg font-semibold">
+  <h2 class="mb-3 text-xl font-semibold">
     <a href="{{ .RelPermalink }}">
       {{ .Title }}
     </a>
-  </h4>
+  </h2>
   
   {{ $categories:= .Params.categories }}
   {{ if $categories }}

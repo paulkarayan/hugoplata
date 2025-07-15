@@ -7,37 +7,25 @@
     object-fit: cover; /* Ensure the image covers the set dimensions without stretching */
   }
 
-// Make headers more reasonable sizes
-.content {
+// Blog card titles (h2) should be smaller than default h2
+.bg-body h2 {
+  @apply text-xl font-semibold !important;
+  line-height: 1.4 !important;
+}
+
+// Article content headers can be normal sizes
+article .content {
   h1 {
-    @apply text-2xl md:text-3xl font-bold !important;
+    @apply text-3xl md:text-4xl font-bold;
   }
   h2 {
-    @apply text-xl md:text-2xl font-bold !important;
+    @apply text-2xl md:text-3xl font-bold;
   }
   h3 {
-    @apply text-lg md:text-xl font-semibold !important;
+    @apply text-xl md:text-2xl font-semibold;
   }
   h4 {
-    @apply text-base md:text-lg font-semibold !important;
+    @apply text-lg md:text-xl font-semibold;
   }
-}
-
-// Override prose styles for blog content
-.prose {
-  h1 {
-    @apply text-2xl md:text-3xl !important;
-  }
-  h2 {
-    @apply text-xl md:text-2xl !important;
-  }
-  h3 {
-    @apply text-lg md:text-xl !important;
-  }
-}
-
-// Force blog card titles to be smaller
-h4.mb-3 {
-  @apply text-lg font-semibold !important;
 }
   
