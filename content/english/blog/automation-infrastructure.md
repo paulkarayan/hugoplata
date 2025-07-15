@@ -10,8 +10,6 @@ tags: ["automation", "infrastructure", "devops", "shadow-it", "technical-debt", 
 draft: false
 ---
 
-# From Internal Shortcut to Business Critical: When Automation Becomes Infrastructure
-
 That Slack bot you built in a weekend? It's now processing 10k requests daily and nobody knows how it works.
 
 **Key Takeaways**:
