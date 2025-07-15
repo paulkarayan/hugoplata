@@ -31,7 +31,7 @@ ID = 'G-416Z0PFX4X' # see https://gohugo.io/templates/internal/#configure-google
 
 ########################## Permalinks ############################
 [permalinks.page]
-"pages" = "/:slugorcontentbasename/"
+"pages" = "/:slugorfilename/"
 
 
 ############################# Modules ############################
