@@ -2,7 +2,7 @@
 title: "Old electronic music efforts from a decade past..."
 meta_title: "Old electronic music efforts from a decade past..."
 description: "Old electronic music efforts from a decade past..."
-date: 2025-1-7
+date: 2025-01-07
 image: "/images/drosophila.webp"
 categories: ["Software", "Music"]
 author: "pk"
