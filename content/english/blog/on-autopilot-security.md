@@ -10,8 +10,6 @@ tags: ["software", "automation", "security", "tools", "workflows", "testing"]
 draft: false
 ---
 
-# Putting it on Autopilot: Five Areas You Can Actually Fire-and-Forget as a Startup CISO
-
 **Summary**: Stop cosplaying enterprise security. Here's what you can actually automate without losing sleep.
 
 **Key Takeaways**:

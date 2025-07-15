@@ -10,7 +10,6 @@ tags: ["software", "security", "testing", "tools", "automation"]
 draft: false
 ---
 
-# Security Theatre & What Actually Protects Your Code
 
 **Summary**: Your SOC 2 badge won't stop hackers. Here's what will.
 

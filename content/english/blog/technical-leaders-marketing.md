@@ -10,7 +10,6 @@ tags: ["software", "marketing", "finance", "tools", "workflows"]
 draft: false
 ---
 
-# Why Technical Leaders Need to Think Like Marketers
 
 **Summary**: Your code is elegant. Your architecture is sound. So why is nobody funding your project?
 
