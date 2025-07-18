@@ -1,0 +1,137 @@
+# Blog Taxonomy Summary
+
+## Unique Categories Used:
+
+1. **Software** - The most common category, used for technical and programming-related content
+2. **Engineering** - Used alongside Software for more technical/infrastructure posts
+3. **Finance** - Used for finance-related software posts
+4. **Not Software** - Used for non-technical posts like cooking, building projects, etc.
+5. **Fun** - Used for entertainment, books, and lighter content
+6. **Productivity** - Used for productivity tools and techniques
+7. **Music** - Used for music-related posts, especially accordion/instrument content
+8. **Art** - Used for artistic content and creative projects
+9. **Food** - Used for cooking and recipe posts
+10. **Life** - Used for personal life experiences
+
+## Unique Tags Used:
+
+### Technical/Software Tags:
+- software
+- bricolage (appears frequently - seems to mean DIY/tinkering)
+- AI
+- LLM
+- automation
+- testing
+- qa
+- tools
+- workflows
+- security
+- infrastructure
+- devops
+- shadow-it
+- technical-debt
+- governance
+- scaling
+- claude-code
+- text-processing
+- metacode
+- documentation
+- evals
+
+### Programming/Development:
+- linear (appears to be a project management tool)
+- pipedream
+- marimo
+- notebooks
+- aqua
+- slack
+
+### Marketing/Business:
+- marketing
+- DIY
+- software tools
+- marketing strategies
+- digital marketing
+- finance
+- product management
+- planning
+
+### Music/Art:
+- accordions
+- zydeco
+- cajun
+- instruments
+- art
+- electronic music
+- music
+- google sheets (in music context)
+
+### Personal/Professional Development:
+- adhd
+- neurodivergent
+- old dude yells at clouds
+- Professional Development
+- weirdly personal but still salesy
+- personal reflections
+- self-discovery
+- side projects
+- curiosity
+- creativity
+- mental health
+- grappling
+- meditation
+- talks
+- teaching
+- democratisation
+- WFO
+- Learning
+
+### Productivity/Time Management:
+- time savings
+- gear
+- tek
+- productivity
+- time management
+- analog
+- focus
+- bash
+- macos
+- quotes
+- push
+
+### Food/Cooking:
+- food
+- cooking
+- raw peanuts
+- mexican
+- southern
+- Cooking
+- Build
+
+### Other:
+- death
+- not software
+- transcription
+- hotkeys
+- books
+- comedy
+- Funky
+- caucasian
+- humour
+
+## Common Tag Combinations:
+
+1. ["software", "bricolage"] - Very common for DIY technical projects
+2. ["software", "marketing", "DIY"] - Common for marketing-related technical posts
+3. ["software", "time savings", "gear", "tek"] - Common for productivity tools
+4. ["software", "bricolage", "art", "accordions", "zydeco", "cajun", "instruments"] - Standard for accordion/music tech posts
+5. ["adhd", "neurodivergent", "old dude yells at clouds", "Professional Development"] - For neurodiversity posts
+
+## Observations:
+
+1. The tagging system is quite detailed and specific
+2. "bricolage" is a key tag that appears to mean DIY/tinkering/creative problem-solving
+3. There's a strong focus on software/technical content, but also significant personal and creative content
+4. Tags often tell a story (e.g., "weirdly personal but still salesy")
+5. Some posts use many tags (up to 7-8), while others use just 2-3
+6. The categories are broader groupings while tags are more specific and descriptive
