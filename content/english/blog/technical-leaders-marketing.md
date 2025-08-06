@@ -6,7 +6,7 @@ date: 2025-07-13
 image: "/images/marketing.png"
 categories: ["Software", "Engineering", "Finance"]
 author: "pk"
-tags: ["software", "marketing", "finance", "tools", "workflows"]
+tags: ["software", "marketing", "finance", "tools", "workflows", "ph"]
 draft: false
 ---
 

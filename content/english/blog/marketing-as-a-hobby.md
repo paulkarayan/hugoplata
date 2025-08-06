@@ -6,7 +6,7 @@ date: 2024-12-15
 image: "/images/personal-brand.png"
 categories: ["Software"]
 author: "pk"
-tags: ["software", "marketing", "DIY", "weirdly personal but still salesy"]
+tags: ["software", "marketing", "DIY", "weirdly personal but still salesy","ph"]
 draft: false
 ---
 

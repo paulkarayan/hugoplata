@@ -6,7 +6,7 @@ date: 2025-08-02
 image: "/images/working-alone.png"
 categories: ["Software", "Productivity", "Life"]
 author: "pk"
-tags: ["software", "productivity", "personal reflections", "workflows", "bricolage"]
+tags: ["software", "productivity", "personal reflections", "workflows", "bricolage", "ph"]
 draft: false
 ---
 

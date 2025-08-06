@@ -6,7 +6,7 @@ date: 2024-12-13
 image: "/images/linkedin.png"
 categories: ["Software"]
 author: "pk"
-tags: ["software", "marketing", "DIY"]
+tags: ["software", "marketing", "DIY", "ph"]
 draft: false
 ---
 

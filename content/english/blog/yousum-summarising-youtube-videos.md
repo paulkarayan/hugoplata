@@ -6,7 +6,7 @@ date: 2025-01-08
 image: "/images/yousum.png"
 categories: ["Software"]
 author: "pk"
-tags: ["software", "marketing", "DIY"]
+tags: ["software", "marketing", "DIY", "ph"]
 draft: false
 ---
 

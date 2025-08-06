@@ -2,7 +2,7 @@
 title: "Boosting Blog SEO with AI: Smarter Titles, Tags, and Meta Descriptions"
 meta_title: "Boost Your Blog's Reach with AI: Smarter Titles, Tags, and SEO Insights"
 description: "Discover how AI can optimize your blog's titles, meta descriptions, and tags for better SEO without losing authenticity. Learn about the tools and processes behind the transformation."
-tags: ["AI", "software tools", "marketing strategies", "digital marketing", "personal reflections"]
+tags: ["AI", "software tools", "marketing strategies", "digital marketing", "personal reflections", "ph"]
 date: 2025-01-11
 image: "/images/taggart.png"
 categories: ["Software"]

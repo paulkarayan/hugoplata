@@ -6,7 +6,7 @@ date: 2025-08-02
 image: "/images/google-sre-content.png"
 categories: ["Software", "Productivity", "Engineering"]
 author: "pk"
-tags: ["software", "automation", "workflows", "productivity", "AI", "tools", "marketing"]
+tags: ["software", "automation", "workflows", "productivity", "AI", "tools", "marketing", "ph"]
 draft: false
 ---
 

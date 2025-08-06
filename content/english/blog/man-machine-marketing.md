@@ -6,7 +6,7 @@ date: 2024-12-12
 image: "/images/manmachine.jpg"
 categories: ["Software"]
 author: "pk"
-tags: ["software", "marketing", "DIY"]
+tags: ["software", "marketing", "DIY", "ph"]
 draft: false
 ---
 

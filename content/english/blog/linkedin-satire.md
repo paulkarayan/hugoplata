@@ -6,7 +6,7 @@ date: 2025-01-23
 image: "/images/li-knight.png"
 categories: ["Fun"]
 author: "pk"
-tags: ["quotes", "comedy", "workflows"]
+tags: ["quotes", "comedy", "workflows", "ph"]
 draft: false
 ---
 
