@@ -13,7 +13,7 @@ features:
     bulletpoints:
       - "15+ year Silicon Valley career"
       - "Startup Generalist across business, engineering, & management roles. Solves hard problems that matter(tm)"
-      - "Currently Eng Director & CISO at Opto Investments (www.optoinvest.com)"
+      - "Currently building something different. Formerly Eng Director & CISO at Opto Investments (www.optoinvest.com)"
       - "Early employee at winning companies like LiveOps, The Climate Corporation, Addepar, Primer.ai, and Opto Investments (>$5 Billion of market value, so far)"
       - "Duke University and UC Berkeley (Organic Chemistry) degrees - lightly used"
       - "Native of Los Angeles, CA"
