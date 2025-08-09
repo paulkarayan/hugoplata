@@ -1,6 +1,6 @@
 ---
-title: "The Punk Rock Guide to Learning - Embrace Productive Discomfort with Programming Languages"
-meta_title: "The Punk Rock Guide to Switching Programming Languages - Embrace Productive Discomfort"
+title: "The punk rock guide to learning - embrace productive discomfort with programming languages"
+meta_title: "The punk rock guide to switching programming languages - embrace productive discomfort"
 description: "Six months ago, I threw out my comfortable Python stack and switched to Clojure. Not because it was 'better' - but because sometimes the best way to level up is to burn your safety net. Here's what I learned about the psychology of productive discomfort."
 date: 2025-08-08
 image: "/images/punk-rock-guide-switching-programming-languages.png"

@@ -1,6 +1,6 @@
 ---
-title: "The Authenticity Paradox: Why Being Real Online Requires Strategic Curation"
-meta_title: "The Authenticity Paradox - Strategic Online Identity Management"
+title: "The authenticity paradox: why being real online requires strategic curation"
+meta_title: "The authenticity paradox - strategic online identity management"
 description: "We're told to be authentic online while being rewarded for carefully curated content. This tension is destroying our ability to build genuine connections. Here's how to navigate it without losing your soul."
 date: 2025-08-08
 image: "/images/authenticity.png"
