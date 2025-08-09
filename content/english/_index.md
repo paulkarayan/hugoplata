@@ -30,7 +30,7 @@ features:
       - "Frequently outshined by wife and 3 young children"
       - "Reads (sci fi, science, history, non-fiction), listens to lots of music (metal, punk, zydeco, electronic, classical - among other things), and info dumps on the unwitting (ye shall see all in the blog posts)"
       - "Bricoleur, 3x engineer, and Digital Warlord"
-      - "Not afraid to suck at something new. Right now, that something is: Cajun Accordion"
+      - "Not afraid to suck at something new. Right now, that something is: Anglo Concertina"
       - "Considers an AI melded image of him with his cat a good idea for a professional website"
     button:
       enable: true
