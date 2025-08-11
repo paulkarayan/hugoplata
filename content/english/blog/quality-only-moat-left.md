@@ -20,11 +20,7 @@ At Primer.ai, we tracked the misinformation problem. Nation-states were already 
 
 A friend in advertising told me: "Streaming fragmentation killed our ability to reach people. Nobody knows where anyone watches anything anymore." Another friend, a content marketer, predicted: "In six months, people will tune out LinkedIn corporate posts like they tune out email drip campaigns. Straight to spam!"
 
-They're both right, but we can't let this cause us to miss the real opportunity.
-
-When everyone can publish, when AI handles the grunt work of content creation, what survives? Resonance. As [Stepfanie Tyler writes](https://www.wildbarethoughts.com/): "Audiences don't care about your process. They care about resonance."
-
-Your weird obsessions, contrarian takes, specific expertise - these become more valuable as generic content becomes worthless. The things AI can't fake: lived experience, genuine insight, the courage to be wrong in interesting ways. The courage to explore and live freely.
+They're both right, but we can't let this cause us to miss the real opportunity. When everyone can publish, when AI handles the grunt work of content creation, what survives? Resonance. As [Stepfanie Tyler writes](https://www.wildbarethoughts.com/): "Audiences don't care about your process. They care about resonance. "Your weird obsessions, contrarian takes, specific expertise - these become more valuable as generic content becomes worthless. The things AI can't fake: lived experience, genuine insight, the courage to be wrong in interesting ways. The courage to explore and live freely.
 
 "AI handles the grunt work. Humans handle the vision." Embrace the tools for what they are. Let them handle research, editing, synthesis. But the vision - the thing that makes people stop scrolling - that's still yours.
 
