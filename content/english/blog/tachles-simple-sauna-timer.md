@@ -10,7 +10,7 @@ tags: ["bricolage", "tools", "personal reflections", "DIY"]
 draft: false
 ---
 
-My sauna (see other blog post) is too hot. I'm sitting inside, sweating it out as we get north of 140°F, and venting it to cool down seems like a waste. Also - once you get in, you need to reheat it. so it's a real (1st world) problem! 
+[My sauna](https://paulkarayan.com/blog/sauna-build/) is too hot. I'm sitting inside, sweating it out as we get north of 140°F, and venting it to cool down seems like a waste. Also - once you get in, you need to reheat it. so it's a real (1st world) problem!
 
 In the current state, the control is outside; it involves unplugging one of the two steamers whilst sopping wet.
 
