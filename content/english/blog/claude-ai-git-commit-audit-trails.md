@@ -1,5 +1,5 @@
 ---
-title: "Claude Audit Trails: Track AI Changes with Smart Git Commit Messages"
+title: "Claude audit trails: Track AI changes with smart Git commit messages"
 meta_title: "Claude AI Git Commit Audit Trails - Track AI Changes in Your Codebase"
 description: "A simple git commit format for tracking Claude AI changes in your codebase. Create searchable audit trails that make debugging and rollbacks painless."
 date: 2025-09-01T09:47:24-08:00

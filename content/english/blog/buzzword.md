@@ -1,5 +1,5 @@
 ---
-title: "Buzzwords in marketing copy - a fun slack bot"
+title: "Buzzwords in marketing copy - a fun Slack bot"
 meta_title: "Buzzwords in marketing copy - a fun slack bot"
 description: "Buzzwords in marketing copy - a fun slack bot"
 date: 2025-04-07

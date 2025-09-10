@@ -1,5 +1,5 @@
 ---
-title: "Private Investments are Broken"
+title: "Private investments are broken"
 meta_title: "Private Investments are Broken"
 description: "Private Investments are Broken!"
 date: 2025-02-15

@@ -1,5 +1,5 @@
 ---
-title: "Trashcan Tandoori Oven"
+title: "Trashcan tandoori oven"
 meta_title: "DIY Tandoor Oven from Trash Can: Budget Indian Clay Oven Build"
 description: "Trashcan Tandoori Oven"
 date: 2023-12-04

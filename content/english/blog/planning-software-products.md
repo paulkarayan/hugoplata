@@ -1,5 +1,5 @@
 ---
-title: "Provocative Post about Planning Products!"
+title: "Provocative post about planning products!"
 meta_title: "Customer-Centric Development: Provocative Insights for Better Products"
 description: "Explore bold strategies for prioritizing customer experience in product development. Learn how to avoid overplanning and focus on what truly matters to your customers for successful software products."
 date: 2022-02-01

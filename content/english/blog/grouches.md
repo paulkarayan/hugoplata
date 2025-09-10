@@ -1,5 +1,5 @@
 ---
-title: "Loveable grouches & the slurpee machine in heaven"
+title: "Loveable grouches & the Slurpee machine in heaven"
 meta_title: "Loveable grouches & the slurpee machine in heaven"
 description: "Loveable grouches & the slurpee machine in heaven!"
 date: 2025-02-05

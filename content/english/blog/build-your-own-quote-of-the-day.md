@@ -1,5 +1,5 @@
 ---
-title: "build your own quote of the day + reminder system"
+title: "Build your own quote of the day + reminder system"
 meta_title: "build your own quote of the day"
 description: "build your own quote of the day"
 date: 2025-01-18

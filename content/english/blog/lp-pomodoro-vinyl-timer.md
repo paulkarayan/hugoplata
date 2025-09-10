@@ -1,5 +1,5 @@
 ---
-title: "The LP Pomodoro: Why Vinyl Beats Every Timer App"
+title: "The LP Pomodoro: why vinyl beats every timer app"
 meta_title: "LP Pomodoro: Using Vinyl Records as a Productivity Timer"
 description: "Discover how vinyl records create the perfect work sprint rhythm with built-in breaks and analog constraints that boost productivity"
 date: 2025-07-18

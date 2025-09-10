@@ -1,5 +1,5 @@
 ---
-title: "Book Recommendation: Scaling People"
+title: "Book recommendation: Scaling People"
 meta_title: "Book Review: Scaling People - Essential Leadership Insights"
 description: "Key takeaways from 'Scaling People' on building and managing high-performing teams"
 date: 2023-11-23

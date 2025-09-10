@@ -1,5 +1,5 @@
 ---
-title: "Building a Cajun Accordion I can live with... [brief edition]"
+title: "Building a Cajun accordion I can live with... [brief edition]"
 meta_title: "Building a Cajun Accordion I can live with... [brief edition]"
 description: "Building a Cajun Accordion I can live with..."
 date: 2024-10-26

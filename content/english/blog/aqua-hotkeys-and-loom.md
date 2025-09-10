@@ -1,5 +1,5 @@
 ---
-title: "Aqua and Hotkeys to write blogs posts quickly - and then Loom AI makes a surprise appearance!"
+title: "Aqua and hotkeys to write blogs posts quickly - and then Loom AI makes a surprise appearance!"
 meta_title: "Aqua Voice Transcription + Hotkeys: Speed Up Content Creation"
 description: "Boost productivity with Aqua transcription hotkeys & discover Loom's AI-powered Linear ticket generation"
 date: 2024-09-08

@@ -1,5 +1,5 @@
 ---
-title: "linkedin satire - making light of marketing demons and their buzzwords"
+title: "LinkedIn satire - making light of marketing demons and their buzzwords"
 meta_title: "linkedin satire - making light of marketing demons and their buzzwords"
 description: "linkedin satire - making light of marketing demons and their buzzwords"
 date: 2025-01-23

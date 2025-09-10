@@ -1,5 +1,5 @@
 ---
-title: "Skronk and Skreigh: Building an Irish Tune Practice Toolkit"
+title: "Skronk and Skreigh: Building an Irish tune practice toolkit"
 meta_title: "Skronk and Skreigh: Building an Irish Tune Practice Toolkit"
 description: "A Python tool for managing Irish traditional music practice sessions, extracting tune sets from recordings, and creating Spotify playlists with multiple interpretations"
 date: 2025-07-11

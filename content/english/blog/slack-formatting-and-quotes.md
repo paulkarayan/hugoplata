@@ -1,5 +1,5 @@
 ---
-title: "That one where a slack quotes formatting screws your code up again..."
+title: "That one where a Slack quotes formatting screws your code up again..."
 meta_title: "That one where a slack formatting issue screws you again..."
 description: "That one where a slack formatting issue screws you again..."
 date: 2025-04-03

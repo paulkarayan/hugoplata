@@ -1,5 +1,5 @@
 ---
-title: "Using AI to Entice Employees to Python — Paul Pereyda Karayan & Emmanuel Uwakwe (PyBay 2024)"
+title: "Using AI to entice employees to Python — Paul Pereyda Karayan & Emmanuel Uwakwe (PyBay 2024)"
 meta_title: "Using AI to Entice Employees to Python — Paul Pereyda Karayan & Emmanuel Uwakwe (PyBay 2024)"
 description: "Using AI to Entice Employees to Python — Paul Pereyda Karayan & Emmanuel Uwakwe (PyBay 2024)"
 date: 2024-10-28

@@ -1,5 +1,5 @@
 ---
-title: "Irish song of the day - with google sheets and pipedream"
+title: "Irish song of the day - with Google Sheets and Pipedream"
 meta_title: "Learning an Irish song of the day - every day - with google sheets and pipedream"
 description: "Learning an Irish song of the day - every day - with google sheets and pipedream"
 date: 2025-04-07

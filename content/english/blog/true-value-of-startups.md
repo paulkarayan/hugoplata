@@ -1,5 +1,5 @@
 ---
-title: "The True Value of Startups: Network and Learning"
+title: "The true value of startups: Network and learning"
 meta_title: "Why Startups Matter: The Network and Learning Beats the Money"
 description: "After leaving my last startup gig at Opto, I got a text from two of my former colleagues that reminded me why the real value of working at a startup goes way beyond the paycheck."
 date: 2025-08-25

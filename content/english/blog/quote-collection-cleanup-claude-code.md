@@ -1,5 +1,5 @@
 ---
-title: "When Your Quote Collection Looks Like a Junk Drawer"
+title: "When your quote collection looks like a junk drawer"
 meta_title: "How to Clean Up 1300+ Quotes with Claude Code - Automated Text Processing"
 description: "Learn how Claude Code automated the cleanup of 1300+ messy quotes into a standardized format. Transform years of copy-pasted wisdom into a working quote-of-the-day system with AI-powered text processing."
 date: 2025-07-11

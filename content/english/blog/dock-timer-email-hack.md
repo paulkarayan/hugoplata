@@ -1,5 +1,5 @@
 ---
-title: "Dock Timer Hack: Break Email Addiction with macOS Automation"
+title: "Dock timer hack: Break email addiction with macOS automation"
 meta_title: "Dock Timer Hack: Break Email Addiction with macOS Automation"
 description: "A simple bash script that temporarily removes apps from your dock to break muscle memory habits and improve focus"
 date: 2025-07-12

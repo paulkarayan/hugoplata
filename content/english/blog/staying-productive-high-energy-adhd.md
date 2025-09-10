@@ -1,5 +1,5 @@
 ---
-title: "Harnessing High Energy: Tips for Staying Productive"
+title: "Harnessing high energy: Tips for staying productive"
 meta_title: "Maximizing Productivity as a High-Energy Professional"
 description: "Learn effective strategies to boost productivity and maintain focus as a high-energy professional. Discover tips for structuring work, maintaining balance, and leveraging your strengths to achieve success."
 date: 2024-06-23

@@ -1,5 +1,5 @@
 ---
-title: "YouSum on the Command line - a CLI function for summarising long YouTube videos to get right to the point! "
+title: "YouSum on the command line - a CLI function for summarising long YouTube videos to get right to the point!"
 meta_title: "YouSum - summarising long YouTube videos to get right to the point!"
 description: "YouSum on the Command line - a CLI function for summarising long YouTube videos to get right to the point!"
 date: 2025-01-27

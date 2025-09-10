@@ -1,5 +1,5 @@
 ---
-title: "Applying Google's Site Reliability Engineering (SRE) Principles to Writing & Content"
+title: "Applying Google's site reliability engineering (SRE) principles to writing & content"
 meta_title: "How Google's SRE Principles Can Transform Content Creation"
 description: "Walk into any marketing department or agency and you'll find a peculiar phenomenon: rooms full of people talking about content instead of creating it. Coming from a tech background, we were surprised by this being the status quo."
 date: 2025-08-02

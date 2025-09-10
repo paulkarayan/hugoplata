@@ -1,5 +1,5 @@
 ---
-title: "What I learned about my mental blocks by building a Sauna Tent at home with unusual materials"
+title: "What I learned about my mental blocks by building a sauna tent at home with unusual materials"
 meta_title: "DIY Home Sauna: Breaking Mental Blocks with Grow Tents & Steamers"
 description: "How building a $200 DIY sauna from grow tents taught me about overcoming fixation on expensive solutions"
 date: 2023-11-23

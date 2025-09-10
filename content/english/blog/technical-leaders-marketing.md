@@ -1,5 +1,5 @@
 ---
-title: "Why Technical Leaders Need to Think Like Marketers"
+title: "Why technical leaders need to think like marketers"
 meta_title: "Technical Leadership: Why Engineers Must Master Internal Marketing"
 description: "Your code is elegant. Your architecture is sound. So why is nobody funding your project? Learn how to sell technical initiatives internally."
 date: 2025-07-13

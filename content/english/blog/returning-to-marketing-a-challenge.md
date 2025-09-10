@@ -1,5 +1,5 @@
 ---
-title: "Building My Brand: A Hands-On Marketing Challenge for 2025"
+title: "Building my brand: A hands-on marketing challenge for 2025"
 meta_title: "2025 Marketing Challenge: Building a Personal Brand with Fresh Strategies"
 description: "Join me on a journey to build my personal brand in 2025 using innovative marketing strategies and tools. Explore practical insights and learnings from my experiences in growth marketing and engineering leadership."
 date: 2024-12-13

@@ -1,5 +1,5 @@
 ---
-title: "The Content Moderation Paradox: How AI-Powered Filters Will Transform Digital Media Consumption"
+title: "The content moderation paradox: How AI-powered filters will transform digital media consumption"
 meta_title: "AI Content Moderation Paradox - Personalized Filters & Digital Media Ethics"
 description: "LLMs are revolutionizing content filtering with personalized moderation capabilities. This technological shift presents both unprecedented opportunities and complex ethical challenges for how we consume digital media."
 date: 2025-09-01T09:55:00-08:00

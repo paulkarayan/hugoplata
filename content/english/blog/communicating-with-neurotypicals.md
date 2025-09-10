@@ -1,5 +1,5 @@
 ---
-title: "LLMs for Translating Silicon Valley to MBA speak"
+title: "LLMs for translating Silicon Valley to MBA speak"
 meta_title: "LLMs for Translating Silicon Valley to MBA Speak"
 description: "Use AI to bridge communication gaps between neurodivergent directness and workplace diplomacy"
 date: 2024-07-01

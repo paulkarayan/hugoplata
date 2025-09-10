@@ -1,5 +1,5 @@
 ---
-title: "No Goals, Just Clouds: Observations from a Spiky Mind"
+title: "No goals, just clouds: Observations from a spiky mind"
 meta_title: "No Goals, Just Clouds: Observations from a Spiky Mind"
 description: "No Goals, Just Clouds: Observations from a Spiky Mind"
 date: 2024-12-23

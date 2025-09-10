@@ -1,5 +1,5 @@
 ---
-title: "Cute Accordion tricks - transposition and translation"
+title: "Cute accordion tricks - transposition and translation"
 meta_title: "Cute Accordion tricks - transposition and translation"
 description: "Cute Accordion tricks - transposition and translation"
 date: 2024-11-09

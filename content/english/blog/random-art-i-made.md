@@ -1,5 +1,5 @@
 ---
-title: "PK AI Art Gallery - making things mostly with Midjourney"
+title: "PK AI art gallery - making things mostly with Midjourney"
 meta_title: "PK AI Art Gallery - making things mostly with Midjourney"
 description: "PK AI Art Gallery - making things mostly with Midjourney"
 date: 2024-09-13

@@ -1,5 +1,5 @@
 ---
-title: "Using Slack Shortcuts and LLMs to question everything"
+title: "Using Slack shortcuts and LLMs to question everything"
 meta_title: "Using Slack Shortcuts and LLMs to question everything"
 description: "Using Slack Shortcuts and LLMs to question everything"
 date: 2025-03-30

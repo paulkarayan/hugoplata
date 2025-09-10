@@ -1,5 +1,5 @@
 ---
-title: "In Defense of Working Alone"
+title: "In defense of working alone"
 meta_title: "Why Everything Doesn't Need to Be a Team Effort - In Defense of Working Alone"
 description: "Let's talk about the elephant in every conference room: corporate teamwork is largely a joke. You know it. We know it. But somehow, we're all still pretending that collaboration is the secret sauce to success."
 date: 2025-08-02

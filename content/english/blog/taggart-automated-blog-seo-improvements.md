@@ -1,5 +1,5 @@
 ---
-title: "Boosting Blog SEO with AI: Smarter Titles, Tags, and Meta Descriptions"
+title: "Boosting blog SEO with AI: Smarter titles, tags, and meta descriptions"
 meta_title: "Boost Your Blog's Reach with AI: Smarter Titles, Tags, and SEO Insights"
 description: "Discover how AI can optimize your blog's titles, meta descriptions, and tags for better SEO without losing authenticity. Learn about the tools and processes behind the transformation."
 tags: ["AI", "software tools", "marketing strategies", "digital marketing", "personal reflections", "ph"]
@@ -31,7 +31,7 @@ Here is the metadata I put for the 1st version of this blog (note that it's goin
 now... ooo how meta!)
 
 ```
-title: "Taggart - automation blog improvements using AI"
+title: "Boosting blog SEO with AI: Smarter titles, tags, and meta descriptions"
 meta_title: "Taggart - automation blog improvements using AI"
 description: "Taggart - automation blog improvements using AI"
 date: 2024-1-8
@@ -53,7 +53,7 @@ using this word and not always correctly)
 
 so in our case - let's go all meta on this - here's what we got out the other end:
 ```
-title: "Boosting Blog SEO with AI: Smarter Titles, Tags, and Meta Descriptions"
+title: "Boosting blog SEO with AI: Smarter titles, tags, and meta descriptions"
 meta_title: "Boost Your Blog's Reach with AI: Smarter Titles, Tags, and SEO Insights"
 description: "Discover how AI can optimize your blog's titles, meta descriptions, and tags for better SEO without losing authenticity. Learn about the tools and processes behind the transformation."
 tags: ["AI", "software tools", "marketing strategies", "digital marketing", "personal reflections"]

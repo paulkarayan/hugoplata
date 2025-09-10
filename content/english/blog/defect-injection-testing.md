@@ -1,5 +1,5 @@
 ---
-title: "Defect Injection testing - the lost art of 'Bedbugging'"
+title: "Defect injection testing - the lost art of 'Bedbugging'"
 meta_title: "Defect Injection Testing: How to Test Your Tests with Bedbugging"
 description: "Learn how defect injection (bedbugging) ensures your tests catch bugs using MITMProxy & Chaos Engineering"
 date: 2024-07-07

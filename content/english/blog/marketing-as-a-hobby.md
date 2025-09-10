@@ -1,5 +1,5 @@
 ---
-title: "Why Marketing? Seems like an odd hobby..."
+title: "Why marketing? Seems like an odd hobby..."
 meta_title: "Why Marketing? Seems like an odd hobby..."
 description: "Why Marketing? Seems like an odd hobby..."
 date: 2024-12-15

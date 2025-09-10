@@ -1,5 +1,5 @@
 ---
-title: "Thoughts on Return-To-Office and Agile Manifesto"
+title: "Thoughts on return-to-office and Agile Manifesto"
 meta_title: "Thoughts on Return-To-Office and Agile Manifesto"
 description: "Thoughts on Return-To-Office and Agile Manifesto"
 date: 2024-12-16

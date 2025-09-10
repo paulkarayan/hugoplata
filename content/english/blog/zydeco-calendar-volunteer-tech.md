@@ -1,5 +1,5 @@
 ---
-title: "why not do something magical with your coding skills?"
+title: "Why not do something magical with your coding skills?"
 meta_title: "Use Your Coding Skills for Community Good - Zydeco Calendar Case Study"
 description: "Last week, I built a Zydeco and Cajun events calendar for someone who's been keeping the Bay Area dance scene alive for years. Total time invested: 3 hours. Here's why you should find your own community project."
 date: 2025-08-24

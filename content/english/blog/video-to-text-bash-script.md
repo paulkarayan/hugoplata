@@ -1,5 +1,5 @@
 ---
-title: "Turn Any Video Into Text With This Simple Bash Script"
+title: "Turn any video into text with this simple Bash script"
 meta_title: "Local Video Transcription with OpenAI Whisper - Simple Bash Script"
 description: "A simple 15-line bash script that transcribes videos locally using OpenAI Whisper. No cloud services, no subscriptions."
 date: 2025-09-08

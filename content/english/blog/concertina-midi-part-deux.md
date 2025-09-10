@@ -1,5 +1,5 @@
 ---
-title: "Midi Concertina - my second instrument attempt"
+title: "MIDI concertina - my second instrument attempt"
 meta_title: "Midi Concertina - my second instrument attempt"
 description: "Midi Concertina - my second instrument attempt!"
 date: 2025-02-17

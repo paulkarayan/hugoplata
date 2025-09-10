@@ -1,5 +1,5 @@
 ---
-title: "llm - for command line LLM Prototyping"
+title: "LLM - for command line LLM prototyping"
 meta_title: "LLM Command Line Tool: Rapid AI Prototyping with VS Code Integration"
 description: "Speed up LLM prototyping with the 'llm' CLI tool - iterate prompts quickly using VS Code hotkeys"
 date: 2024-08-05

@@ -1,5 +1,5 @@
 ---
-title: " Marimo - a great new tool for building micro- & internal apps"
+title: "Marimo - a great new tool for building micro- & internal apps"
 meta_title: " Marimo - a great new tool for building micro- & internal apps"
 description: " Marimo - a great new tool for building micro- & internal apps"
 date: 2025-01-01

@@ -1,5 +1,5 @@
 ---
-title: "Slaying Software Zombies with LLMs (and lesser incantations)"
+title: "Slaying software zombies with LLMs (and lesser incantations)"
 meta_title: "Slaying Software Zombies with LLMs (and lesser incantations)"
 description: "dealing with metacode (tests, docs, bugs, requirements etc...) that are no longer completely accurate (thus, zombies) due to not being in sync with the product & its code updating."
 date: 2023-12-16

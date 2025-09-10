@@ -1,5 +1,5 @@
 ---
-title: "Putting it on Autopilot: Five Areas You Can Actually Fire-and-Forget as a Startup CISO"
+title: "Putting it on autopilot: Five areas you can actually fire-and-forget as a startup CISO"
 meta_title: "Startup Security Automation: What CISOs Can Actually Put on Autopilot"
 description: "Stop cosplaying enterprise security. Here's what you can actually automate without losing sleep - from compliance to endpoint security."
 date: 2025-07-13
