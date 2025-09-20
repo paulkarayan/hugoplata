@@ -2,7 +2,7 @@
 title: "Cold Mountain: remaining a person beyond"
 meta_title: "Cold Mountain and Han Shan - Remaining a Person Beyond"
 description: "Han Shan got it right centuries ago - fled to Cold Mountain, made friends with deer, used the moon as his lamp. Not abandoning humanity, but transcending it by stepping outside the game everyone else insists you play."
-date: 2025-01-20T12:00:00-08:00
+date: 2025-09-20
 image: "/images/cold-mountain.png"
 categories: ["Life", "Not Software"]
 author: "pk"
