@@ -10,14 +10,14 @@ tags: ["life", "philosophy", "quotes", "zen"]
 draft: false
 ---
 
-_Cold Mountain is all white clouds
-Quiet and free of dust
-A grassy spot makes a mountain home
-The bright moon its lone lamp
-A stone couch above a jade pool
-Tigers and deer for neighbors
-I love the joys of solitude
-Remaining a person beyond._
+_Cold Mountain is all white clouds_
+_Quiet and free of dust_
+_A grassy spot makes a mountain home_
+_The bright moon its lone lamp_
+_A stone couch above a jade pool_
+_Tigers and deer for neighbors_
+_I love the joys of solitude_
+_Remaining a person beyond._
 
 Han Shan got it right centuries ago. He fled to Cold Mountain, made friends with deer, used the moon as his lamp. "Remaining a person beyond."
 Not abandoning ones humanity, but transcending it. By stepping outside the game everyone else insists you play.
