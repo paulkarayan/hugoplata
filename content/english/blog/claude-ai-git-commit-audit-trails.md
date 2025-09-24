@@ -43,33 +43,3 @@ Add this instruction to your Claude conversations:
 where you set X. i do 50 characters.
 
 Claude automatically formats commits correctly, maintaining consistency across sessions.
-
-## Real-World Benefits of AI Audit Trails
-
-### Surgical Rollbacks
-When Claude unexpectedly refactors half your codebase while fixing a typo, atomic commits save the day. Simply identify the problematic commit with `git log --grep="Claude:"` and revert that specific change.
-
-### Pattern Recognition
-Analyzing your Claude commits reveals delegation patterns. Common discoveries include:
-- Heavy use for test generation
-- Documentation updates
-- Boilerplate code creation
-- Refactoring legacy code
-
-### Team Transparency
-In collaborative environments, Claude commits provide instant context about AI-assisted changes. Team members can quickly identify and review AI-generated code during code reviews.
-
-## Advanced Tips for Claude Commit Management
-
-Consider extending the format for specific use cases:
-- `Claude-fix:` for bug fixes
-- `Claude-feat:` for new features
-- `Claude-docs:` for documentation
-
-This granularity enables even more precise filtering and analysis of AI contributions to your codebase.
-
-## The Bottom Line
-
-This audit trail system transforms Claude from a black box into a transparent development partner. You maintain full visibility and control while leveraging AI efficiency. No complex tooling required—just a consistent format that integrates seamlessly with existing git workflows.
-
-Start using this format today and discover what you're really optimizing for in your development process.
