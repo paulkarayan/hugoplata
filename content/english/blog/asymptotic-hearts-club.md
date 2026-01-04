@@ -4,7 +4,7 @@ date: 2025-11-17
 description: "Taking anglo concertina and irish accordion where it doesn't belong."
 categories: ["Music"]
 tags: ["music", "accordions", "electronic music"]
-image: "/images/asymptotic-hearts-club.png"
+image: "/images/ahc.png"
 ---
 
 Started posting some of my music a while back. Thought it belongs here.
