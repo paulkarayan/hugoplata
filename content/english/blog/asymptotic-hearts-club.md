@@ -1,6 +1,6 @@
 ---
 title: "Asymptotic Hearts Club"
-date: 2024-11-17
+date: 2025-11-17
 description: "Taking anglo concertina and irish accordion where it doesn't belong."
 categories: ["Music"]
 tags: ["music", "accordions", "electronic music"]

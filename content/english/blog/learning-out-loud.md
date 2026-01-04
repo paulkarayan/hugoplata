@@ -1,6 +1,6 @@
 ---
 title: "Learning out loud"
-date: 2024-10-15
+date: 2025-10-15
 description: "Why I'm posting my terrible concertina videos publicly."
 categories: ["Music", "Life"]
 tags: ["music", "personal reflections", "learning"]

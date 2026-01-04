@@ -1,6 +1,6 @@
 ---
 title: "The jig: What makes Irish traditional music feel right?"
-date: 2025-01-04
+date: 2026-01-04
 description: "Using Python and librosa to analyze what gives Irish jigs their distinctive rhythmic pulse. Spoiler: it's not what I expected."
 categories: ["Music", "Software"]
 tags: ["music", "software", "automation"]
