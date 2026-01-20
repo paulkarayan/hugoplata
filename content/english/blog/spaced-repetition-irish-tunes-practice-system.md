@@ -22,7 +22,7 @@ I went down a rabbit hole about musical memory. A few things stood out:
 
 **Spaced repetition beats massed practice.** The Ebbinghaus forgetting curve shows that reviewing material at expanding intervals (Day 1 → 3 → 7 → 14 → 30) creates dramatically stronger retention than cramming. In the absence of being immersed in the tradition, seems like a good bet!
 
-**Know the tune before you play it.** This one comes from traditional pedagogy more than lab research, but it keeps showing up: master players say "if you can hum it, you can play it." The sequence is listen → sing/lilt → play. Not the reverse.
+**Know the tune before you play it.** This one comes from traditional pedagogy more than lab research, but it keeps showing up: master players say "if you can hum it, you can play it." The sequence is listen → sing/lilt → play. though i find my listening changes to variation detection and such when i know the core tool, that's generally accurate.
 
 ## What I wanted
 
