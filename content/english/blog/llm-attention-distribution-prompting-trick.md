@@ -3,7 +3,7 @@ title: "A simple prompting trick to fix LLM attention fade"
 meta_title: "Fix LLM attention distribution with this simple prompting trick"
 description: "Transformer models under-attend to the middle of long inputs and taper off during long outputs. Here's a simple instruction set that counteracts both."
 date: 2026-02-17
-image: "/images/Exhausted Prompt - Infinite Variations.png"
+image: "/images/exhausted-prompt-infinite-variations.jpg"
 categories: ["Software"]
 tags: ["AI", "LLM", "tools", "workflows"]
 author: "pk"

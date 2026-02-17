@@ -3,7 +3,7 @@ title: "Why we trained a DeBERTa classifier to catch AI slop"
 meta_title: "Why we trained a DeBERTa classifier to catch AI slop (instead of just a naive LLM approach)"
 description: "LLMs can't reliably detect their own writing patterns. Here's how we trained a DeBERTa v3 model to do the pattern-matching part of slop detection, and why disentangled attention was the right architectural choice."
 date: 2026-02-17
-image: "/images/Distilled Slop - Content Factory.png"
+image: "/images/distilled-slop-content-factory.jpg"
 categories: ["Software"]
 tags: ["AI", "LLM", "automation", "tools"]
 author: "pk"
