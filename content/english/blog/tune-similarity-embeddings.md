@@ -7,7 +7,7 @@ image: "/images/similar.png"
 categories: ["Software", "Music"]
 tags: ["software", "music", "AI", "tools", "bricolage"]
 author: "pk"
-draft: true
+draft: false
 ---
 
 Listening to Irish music, i'm frequently reminded of similarities between tunes. in some cases, they're probably mashups of different melodies - in others, perhaps they started from a proto-melody and evolved. The example my teacher brought up was Maggie Pickens sounds an awful lot like Charming Lovely Nancy... and that's never really left my mind.
