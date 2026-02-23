@@ -32,3 +32,7 @@ Evaluation uses those multi-setting tunes as ground truth. Take a tune with two 
 the real test is qualitative — browsing the results and checking whether the similar tunes actually *sound* similar. When I spot checked, it's somewhat true  at least enough to be useful. The system surfaces tunes that share melodic contour, common phrases, or structural similarity.
 
 ![Tune similarity results](/images/similar.png)
+
+Here's a great example, which has a comment on The Session of: "Reminds me a bit of Drowsy Maggie, but they are different tunes."
+
+yup!
