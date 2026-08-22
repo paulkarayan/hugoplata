@@ -1,0 +1,21 @@
+content/english/pages/privacy-policy.md
+  s_a560e4f6d6b033::t_41dfaaa286f53b 1-60
+content/english/pages/terms-of-service.md
+  s_a560e4f6d6b033::t_59b5c966eebb73 1-56
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "102c64b5523abbfdba92d443ba4d1fac030a3982",
+  "prompts": {},
+  "sessions": {
+    "s_a560e4f6d6b033": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b64225ee-b3cb-470b-898e-696fc911b785",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "paulkarayan <pk@unstructured.io>"
+    }
+  }
+}
