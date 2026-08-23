@@ -13,7 +13,7 @@ features:
     bulletpoints:
       - "15+ year Silicon Valley career"
       - "Startup Generalist across business, engineering, & management roles. Solves hard problems that matter(tm)"
-      - "Currently building something different. Formerly Eng Director & CISO at Opto Investments (www.optoinvest.com)"
+      - "Currently forward deployed at Unstructured.io - and formerly CTO PirateHat, Eng Director & CISO at Opto Investments."
       - "Early employee at winning companies like LiveOps, The Climate Corporation, Addepar, Primer.ai, and Opto Investments (>$5 Billion of market value, so far)"
       - "Duke University and UC Berkeley (Organic Chemistry) degrees - lightly used"
       - "Native of Los Angeles, CA"
@@ -28,7 +28,7 @@ features:
     bulletpoints:
       - "Writes lively Python and lurks at 10th Planet Jiu Jitsu San Mateo"
       - "Frequently outshined by wife and 3 young children"
-      - "Reads (sci fi, science, history, non-fiction), listens to lots of music (metal, punk, zydeco, electronic, classical - among other things), and info dumps on the unwitting (ye shall see all in the blog posts)"
+      - "Reads (sci fi, science, history, non-fiction), listens to lots of music (metal, punk, zydeco, and irish trad - among other things), and info dumps on the unwitting (ye shall see all in the blog posts)"
       - "Bricoleur, 3x engineer, and Digital Warlord"
       - "Not afraid to suck at something new. Right now, that something is: Anglo Concertina"
       - "Considers an AI melded image of him with his cat a good idea for a professional website"
