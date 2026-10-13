@@ -1,0 +1,399 @@
+<!doctype html>
+<!-- Tier-0 single file: Tailwind Play CDN + daisyUI + Alpine + vanilla WebAudio. No build.
+     Data: bounce_profiles.js (window.BOUNCE_PROFILES), falls back to bounce_profiles.sample.js. -->
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bounce View</title>
+  <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet">
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js"></script>
+  <style>
+    :root{
+      --ink:#14151a; --ink-2:#1b1d24; --panel:#20222b; --panel-2:#262933; --line:#33363f;
+      --paper:#ece7db; --paper-dim:#a7a394; --paper-faint:#6f6d64;
+      --green:#5fb894; --green-deep:#3d7d64; --amber:#e0a458; --rust:#cd6b4a;
+      --radius:12px;
+      --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      --mono:"SF Mono","JetBrains Mono",ui-monospace,Menlo,monospace;
+    }
+    body{ background:var(--ink); color:var(--paper); font-family:var(--sans);
+      background-image:
+        radial-gradient(1100px 600px at 12% -8%, rgba(95,184,148,.10), transparent 60%),
+        radial-gradient(900px 500px at 100% 0%, rgba(224,164,88,.07), transparent 55%);
+      background-attachment:fixed; overflow-x:hidden; }
+    .panel{ background:var(--panel); border:1px solid var(--line); border-radius:var(--radius); }
+    h1{ color:var(--green); font-family:var(--mono); letter-spacing:.04em; }
+    .dim{ color:var(--paper-dim); } .faint{ color:var(--paper-faint); }
+    .mono{ font-family:var(--mono); }
+    .btn-primary{ background:var(--green); border-color:var(--green); color:var(--ink); }
+    .btn-primary:hover{ background:var(--green-deep); border-color:var(--green-deep); color:var(--paper); }
+    .btn-secondary{ background:var(--amber); border-color:var(--amber); color:var(--ink); }
+    .btn-ghost{ color:var(--paper); border:1px solid var(--line); }
+    .tabs-boxed .tab-active{ background:var(--green) !important; color:var(--ink) !important; }
+    .chip{ font-family:var(--mono); font-size:.72rem; padding:.15rem .5rem; border:1px solid var(--line);
+      border-radius:999px; background:var(--ink-2); color:var(--paper-dim); white-space:nowrap; }
+    .chip b{ color:var(--paper); font-weight:600; }
+    .vchip{ font-family:var(--mono); font-size:.72rem; padding:.15rem .6rem; border-radius:999px; font-weight:700;
+      color:var(--ink); border:1px solid transparent; white-space:nowrap; cursor:help; }
+    .vchip.v-pass{ background:var(--green); }
+    .vchip.v-warn{ background:var(--amber); }
+    .vchip.v-fail{ background:var(--rust); }
+    .badge-sample{ background:var(--amber); color:var(--ink); font-family:var(--mono); font-size:.72rem;
+      padding:.15rem .6rem; border-radius:999px; font-weight:700; }
+    .badge-real{ background:var(--green-deep); color:var(--paper); font-family:var(--mono); font-size:.72rem;
+      padding:.15rem .6rem; border-radius:999px; }
+    select, input[type=number]{ background:var(--ink-2); color:var(--paper); border:1px solid var(--line);
+      border-radius:8px; padding:.3rem .5rem; font-size:.85rem; max-width:100%; }
+    input[type=range]{ accent-color:var(--green); }
+    .plot{ overflow-x:auto; position:relative; }
+    .plot-inner{ position:relative; min-width:640px; }
+    .head{ position:absolute; top:0; bottom:0; width:2px; background:var(--paper); opacity:.8; pointer-events:none; }
+    .row-active{ border-color:var(--green); }
+    label.lbl{ font-size:.75rem; color:var(--paper-dim); display:flex; align-items:center; gap:.4rem; }
+  </style>
+</head>
+
+<body class="min-h-screen">
+<main class="max-w-5xl mx-auto px-4 py-6" x-data="bounce()" x-init="init()">
+  <header class="mb-4">
+    <div class="flex flex-wrap items-center gap-3">
+      <h1 class="text-2xl font-bold">bounce view</h1>
+      <span x-show="source==='sample'" class="badge-sample" x-cloak>SAMPLE DATA (mock)</span>
+      <span x-show="source==='real'" class="badge-real" x-cloak>bounce_profiles.js</span>
+    </div>
+    <p class="dim text-sm mt-1">One row = one bar. Line length = how long the note sounds. Thickness = loudness. Thin track = the slot until the next note.</p>
+  </header>
+
+  <!-- tune tabs -->
+  <div role="tablist" class="tabs tabs-boxed mb-3" x-show="tunes().length > 1" x-cloak>
+    <template x-for="name in tunes()" :key="name">
+      <a role="tab" class="tab" :class="tab===name && 'tab-active'" @click="setTab(name)" x-text="name"></a>
+    </template>
+  </div>
+
+  <!-- controls -->
+  <section class="panel p-4 mb-4">
+    <div class="flex flex-wrap gap-x-6 gap-y-3 items-center">
+      <div class="flex flex-wrap items-center gap-3">
+        <label class="lbl"><input type="radio" value="orig" x-model="tempoMode"> original tempo</label>
+        <label class="lbl"><input type="radio" value="std" x-model="tempoMode"> standardized</label>
+        <label class="lbl" :style="tempoMode!=='std' && 'opacity:.4'">
+          <input type="range" min="50" max="160" step="1" x-model.number="stdBpm" @input="tempoMode='std'" style="width:130px">
+          <span class="mono" x-text="stdBpm + ' bpm'"></span>
+        </label>
+      </div>
+      <div class="flex flex-wrap items-center gap-3">
+        <label class="lbl" title="multiplies every dB difference, so accents are easier to hear and see">accent x
+          <input type="range" min="1" max="4" step="0.5" x-model.number="exag" style="width:100px">
+          <span class="mono" x-text="exag + 'x'"></span>
+        </label>
+        <label class="lbl">bars <input type="number" min="1" max="16" x-model.number="bars" style="width:4rem"></label>
+        <label class="lbl"><input type="checkbox" x-model="click"> beat click</label>
+      </div>
+      <div class="flex flex-wrap items-center gap-2">
+        <label class="lbl">A
+          <select x-model="abA"><template x-for="t in shown()" :key="t.id"><option :value="t.id" x-text="t.label"></option></template></select>
+        </label>
+        <label class="lbl">B
+          <select x-model="abB"><template x-for="t in shown()" :key="t.id"><option :value="t.id" x-text="t.label"></option></template></select>
+        </label>
+        <button class="btn btn-sm btn-secondary" @click="playAB()" x-text="(playing && playKey==='ab') ? 'Stop' : 'A/B'"></button>
+      </div>
+    </div>
+    <p class="faint text-xs mt-2" x-show="tempoMode==='std'" x-cloak>
+      Standardized: every row is rescaled from bar fractions to the same beats per minute, so only swing, accent and note length differ.
+    </p>
+    <p class="faint text-xs mt-2">A/B plays one bar of A, then one bar of B, repeated (bars x 2 in total). Pitch is a fixed D major arpeggio so you hear rhythm, not melody.</p>
+  </section>
+
+  <!-- rows -->
+  <template x-for="t in shown()" :key="t.id">
+    <section class="panel p-3 mb-3" :class="activeId===t.id && 'row-active'">
+      <div class="flex flex-wrap items-center gap-2 mb-2">
+        <button class="btn btn-sm btn-primary" @click="playRow(t)" x-text="(playing && playKey===t.id) ? 'Stop' : 'Play'"></button>
+        <button class="btn btn-sm btn-secondary" x-show="t.clip" x-cloak @click="playReal(t)" x-text="(playing && playKey===t.id+':real') ? 'Stop' : 'Real'"
+                title="play the actual recording (clips/ID.m4a), time-stretched to the standardized tempo when that is on"></button>
+        <div class="font-semibold" x-text="t.label"></div>
+        <span class="vchip" x-show="check(t)" x-cloak :class="'v-' + (check(t) ? check(t).verdict.toLowerCase() : '')"
+              :title="checkTitle(t)" x-text="check(t) ? check(t).verdict : ''"></span>
+        <div class="faint text-xs mono" x-text="t.meter==='jig' ? '6/8 jig, 2 dotted-quarter beats' : 'hornpipe, 4 beats'"></div>
+      </div>
+      <div class="flex flex-wrap gap-1.5 mb-2">
+        <span class="chip">swing <b x-text="fmt(t.metrics.swing,2)"></b></span>
+        <span class="chip">1+3 excess <b x-text="t.meter==='jig' ? 'n/a' : fmt(t.metrics.accent_13_excess_db,1,' dB',true)"></b></span>
+        <span class="chip">duty <b x-text="fmt(t.metrics.duty,2)"></b></span>
+        <span class="chip">bpm <b x-text="t.bpm"></b></span>
+        <span class="chip">bar <b x-text="fmt(t.bar_s,2,' s')"></b></span>
+        <span class="chip" title="median distance of each beat from a smooth local tempo (beat-to-beat wobble); lower = steadier"
+              x-show="t.metrics.timing_dev_pct != null">timing &plusmn;<b x-text="fmt(t.metrics.timing_dev_pct,1,'%')"></b>
+          <span x-text="'(' + fmt(t.metrics.timing_dev_ms,0,' ms') + ')'"></span></span>
+        <span class="chip" title="median distance of each beat from the metronome click; mean shows early (-) or late (+)"
+              x-show="t.metrics.click_dev_ms != null">vs click &plusmn;<b x-text="fmt(t.metrics.click_dev_ms,0,' ms')"></b>
+          <span x-text="'(mean ' + fmt(t.metrics.click_mean_ms,0,' ms',true) + ')'"></span></span>
+      </div>
+      <div class="plot">
+        <div class="plot-inner">
+          <div x-html="svg(t)"></div>
+          <div class="head" x-show="activeId===t.id && playing" x-cloak
+               :style="'left:' + headPct(t) + '%'"></div>
+        </div>
+      </div>
+      <p class="faint text-xs mt-1" x-text="t.notes_text"></p>
+    </section>
+  </template>
+
+  <p x-show="!takes.length" class="dim">Loading profiles...</p>
+
+  <footer class="faint text-xs mt-4">
+    <span class="sm:hidden">On a phone, swipe a plot sideways to see beats 3-4. </span>
+    Green = on-beat note, amber = off-eighth (or later subdivision). Dashed ticks = where an even (straight) subdivision would fall;
+    a swung off-eighth sits to the right of its dashed tick. Whiskers above notes = start-time IQR.
+    Jig rows are 6/8: beats 1-2 are dotted quarters.
+  </footer>
+</main>
+
+<script>
+function loadScript(src){
+  return new Promise((res, rej) => {
+    const s = document.createElement('script');
+    s.src = src; s.onload = res; s.onerror = () => rej(new Error('load ' + src));
+    document.head.appendChild(s);
+  });
+}
+
+// Plot geometry (SVG user units)
+const W = 1000, H = 150, M = 24, TOP = 34, MID = 92;
+
+function bounce(){
+  return {
+    takes: [], checks: {}, source: '', tempoMode: 'std', stdBpm: 100, exag: 2, realAudio: null, bars: 4, click: true,
+    abA: '', abB: '', tab: '', playing: false, activeId: null, playKey: null, current: null,
+    head: 0, ctx: null, master: null, segs: [], t0: 0, raf: 0, endTimer: 0,
+
+    async init(){
+      for(const k of ['tempoMode','stdBpm','click','exag']) this.$watch(k, () => this.replay());
+      window.BOUNCE_PROFILES = undefined;
+      try { await loadScript('bounce_profiles.js'); this.source = 'real'; }
+      catch(e){ this.source = ''; }
+      if(!window.BOUNCE_PROFILES || !window.BOUNCE_PROFILES.takes){
+        try { await loadScript('bounce_profiles.sample.js'); this.source = 'sample'; }
+        catch(e){ console.error('no profile data found'); return; }
+      }
+      this.takes = window.BOUNCE_PROFILES.takes;
+      // optional: bounce_check.py output. Absent file => no verdict chips.
+      window.BOUNCE_CHECK = undefined;
+      try { await loadScript('bounce_check.js'); } catch(e){ /* no check data */ }
+      this.checks = {};
+      if(window.BOUNCE_CHECK && window.BOUNCE_CHECK.takes){
+        for(const c of window.BOUNCE_CHECK.takes) this.checks[c.id] = c;
+      }
+      this.setTab(this.tunes()[0] || '');
+    },
+    tunes(){ return [...new Set(this.takes.map(t => t.tune || 'Other'))]; },
+    shown(){ return this.takes.filter(t => (t.tune || 'Other') === this.tab); },
+    setTab(name){
+      this.stop(); this.tab = name;
+      const s = this.shown();
+      if(s.length){ this.abA = s[0].id; this.abB = (s.find(t => t.id.startsWith('pk')) || s[s.length-1]).id; }
+    },
+
+    check(t){ return this.checks[t.id] || null; },
+    checkTitle(t){
+      const c = this.check(t);
+      if(!c) return '';
+      const m = c.metrics || {};
+      const w = (c.worst || [])[0];
+      const head = w ? 'worst: beat ' + w.beat + ' sub ' + w.sub + ' (pos ' + w.pos + '): ' + w.detail : 'no worst position';
+      return c.verdict + ' - ' + head + ' | len err ' + m.len_err_slot + ' slot, peak err ' + m.peak_err_db +
+        ' dB, env r ' + m.env_corr + ', MAE ' + m.env_mae_db + ' dB';
+    },
+    fmt(v, d, unit, signed){
+      if(v === null || v === undefined || isNaN(v)) return 'n/a';
+      const s = Number(v).toFixed(d);
+      return (signed && v > 0 ? '+' : '') + s + (unit || '');
+    },
+
+    // ---------- drawing ----------
+    px(frac){ return M + frac * (W - 2*M); },
+    thick(db){ const d = Math.max(-12, Math.min(0, db)); return 2 + 16 * (1 + d/12); },
+    svg(t){
+      const bpb = t.beats_per_bar, sub = t.subdiv;
+      let o = `<svg viewBox="0 0 ${W} ${H}" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="${t.label} bar">`;
+      // bar edges
+      o += `<line x1="${this.px(0)}" x2="${this.px(0)}" y1="${TOP-8}" y2="${H-14}" style="stroke:var(--line);stroke-width:2"/>`;
+      o += `<line x1="${this.px(1)}" x2="${this.px(1)}" y1="${TOP-8}" y2="${H-14}" style="stroke:var(--line);stroke-width:2"/>`;
+      for(let b=0;b<bpb;b++){
+        const x = this.px(b/bpb);
+        o += `<line x1="${x}" x2="${x}" y1="${TOP}" y2="${H-14}" style="stroke:var(--paper-faint);stroke-width:2"/>`;
+        o += `<text x="${x+6}" y="${TOP-12}" style="fill:var(--paper);font:700 26px var(--mono)">${b+1}</text>`;
+        for(let s=1;s<sub;s++){
+          const xs = this.px((b + s/sub)/bpb);
+          o += `<line x1="${xs}" x2="${xs}" y1="${TOP}" y2="${H-14}" style="stroke:var(--paper-faint);stroke-width:1.5;stroke-dasharray:4 5"/>`;
+        }
+      }
+      if(t.meter==='jig'){
+        o += `<text x="${W-M}" y="${TOP-12}" text-anchor="end" style="fill:var(--paper-dim);font:18px var(--mono)">6/8: 2 dotted-quarter beats</text>`;
+      }
+      // baseline
+      o += `<line x1="${this.px(0)}" x2="${this.px(1)}" y1="${MID}" y2="${MID}" style="stroke:var(--line);stroke-width:1"/>`;
+      for(const n of t.notes){
+        const x0 = this.px(n.start_frac);
+        const xd = this.px(n.start_frac + n.dur_frac);
+        const xs = this.px(n.start_frac + n.sound_frac);
+        const col = n.sub === 1 ? 'var(--green)' : 'var(--amber)';
+        // slot track (until next note)
+        o += `<line x1="${x0}" x2="${xd}" y1="${MID}" y2="${MID}" style="stroke:var(--paper-faint);stroke-width:1.5;opacity:.7"/>`;
+        // whisker for start IQR
+        if(n.start_iqr){
+          const a = this.px(n.start_iqr[0]), c = this.px(n.start_iqr[1]);
+          o += `<line x1="${a}" x2="${c}" y1="${MID-24}" y2="${MID-24}" style="stroke:${col};stroke-width:2;opacity:.45"/>`;
+          o += `<line x1="${a}" x2="${a}" y1="${MID-28}" y2="${MID-20}" style="stroke:${col};stroke-width:2;opacity:.45"/>`;
+          o += `<line x1="${c}" x2="${c}" y1="${MID-28}" y2="${MID-20}" style="stroke:${col};stroke-width:2;opacity:.45"/>`;
+        }
+        // sounding part
+        o += `<line x1="${x0}" x2="${Math.max(xs, x0+2)}" y1="${MID}" y2="${MID}" stroke-linecap="butt" style="stroke:${col};stroke-width:${this.thick(n.db * this.exag).toFixed(1)}"><title>${t.label} pos ${n.pos}: ${n.db} dB, sounds ${(n.sound_frac/n.dur_frac*100).toFixed(0)}% of slot</title></line>`;
+        // dB label
+        o += `<text x="${x0+6}" y="${H-1}" style="fill:var(--paper-dim);font:15px var(--mono)">${Math.round(n.db)}</text>`;
+      }
+      o += `</svg>`;
+      return o;
+    },
+    headPct(t){ return (this.px(this.head) / W) * 100; },
+
+    // ---------- audio ----------
+    barSeconds(t){
+      return this.tempoMode === 'std' ? t.beats_per_bar * 60 / this.stdBpm : t.bar_s;
+    },
+    ensureCtx(){
+      if(!this.ctx){
+        const AC = window.AudioContext || window.webkitAudioContext;
+        this.ctx = new AC();
+        this.master = this.ctx.createGain();
+        this.master.gain.value = 0.8;
+        this.master.connect(this.ctx.destination);
+        const re = new Float32Array([0, 1, 0.55, 0.38, 0.18, 0.08]);
+        const im = new Float32Array(re.length);
+        this.wave = this.ctx.createPeriodicWave(re, im);
+      }
+      if(this.ctx.state === 'suspended') this.ctx.resume();
+    },
+    tone(freq, t, dur, gain){
+      const c = this.ctx;
+      const o = c.createOscillator(); o.setPeriodicWave(this.wave); o.frequency.value = freq;
+      const f = c.createBiquadFilter(); f.type = 'lowpass'; f.frequency.value = 2600; f.Q.value = 0.7;
+      const g = c.createGain();
+      const att = Math.min(0.010, dur * 0.4), rel = Math.min(0.015, dur * 0.4);
+      g.gain.setValueAtTime(0, t);
+      g.gain.linearRampToValueAtTime(gain, t + att);
+      g.gain.setValueAtTime(gain, Math.max(t + att, t + dur - rel));
+      g.gain.linearRampToValueAtTime(0, t + dur);
+      o.connect(f); f.connect(g); g.connect(this.master);
+      o.start(t); o.stop(t + dur + 0.02);
+    },
+    clickAt(t, strong){
+      const c = this.ctx;
+      const o = c.createOscillator(); o.type = 'square'; o.frequency.value = strong ? 1800 : 1200;
+      const g = c.createGain();
+      g.gain.setValueAtTime(0.0001, t);
+      g.gain.linearRampToValueAtTime(strong ? 0.09 : 0.05, t + 0.001);
+      g.gain.exponentialRampToValueAtTime(0.0001, t + 0.03);
+      o.connect(g); g.connect(this.master); o.start(t); o.stop(t + 0.04);
+    },
+    schedule(list){
+      // list: [{take}] one entry per bar, played back to back
+      const c = this.ctx;
+      const base = c.currentTime + 0.12;
+      const arp = { 8: [293.66, 369.99, 440, 587.33, 440, 369.99, 440, 369.99],
+                    6: [293.66, 369.99, 440, 587.33, 440, 369.99] };
+      let at = 0;
+      this.segs = [];
+      for(const t of list){
+        const bs = this.barSeconds(t);
+        const notes = arp[t.notes.length] || arp[8];
+        for(const n of t.notes){
+          const when = base + at + n.start_frac * bs;
+          const dur = Math.max(0.02, n.sound_frac * bs);
+          const gain = 0.32 * Math.pow(10, n.db * this.exag / 20);
+          this.tone(notes[n.pos % notes.length], when, dur, gain);
+        }
+        if(this.click){
+          for(let b=0;b<t.beats_per_bar;b++) this.clickAt(base + at + b / t.beats_per_bar * bs, b===0);
+        }
+        this.segs.push({ id: t.id, t0: base + at, t1: base + at + bs, bs });
+        at += bs;
+      }
+      this.total = at; this.base = base;
+    },
+    startPlayback(list, key){
+      this.ensureCtx();
+      this.current = list; this.playKey = key;
+      this.halt();
+      this.schedule(list);
+      this.playing = true;
+      const tick = () => {
+        if(!this.playing) return;
+        const now = this.ctx.currentTime;
+        const s = this.segs.find(x => now >= x.t0 && now < x.t1);
+        if(s){ this.activeId = s.id; this.head = (now - s.t0) / s.bs; }
+        else if(now < this.base){ this.head = 0; }
+        if(now > this.base + this.total + 0.05){ this.stop(); return; }
+        this.raf = requestAnimationFrame(tick);
+      };
+      this.raf = requestAnimationFrame(tick);
+    },
+    halt(){
+      cancelAnimationFrame(this.raf);
+      if(this.realAudio){ this.realAudio.pause(); this.realAudio = null; }
+      if(this.ctx){
+        // drop everything already scheduled by replacing the master bus
+        try { this.master.disconnect(); } catch(e){}
+        this.master = this.ctx.createGain(); this.master.gain.value = 0.8;
+        this.master.connect(this.ctx.destination);
+      }
+    },
+    stop(){ this.halt(); this.playing = false; this.activeId = null; this.playKey = null; this.head = 0; },
+    // tempo/click changes apply to what is playing now: reschedule the same list
+    replay(){
+      if(!this.playing) return;
+      if(this.realAudio && this.realTake) this.applyRate(this.realTake);
+      else if(this.current) this.startPlayback(this.current, this.playKey);
+    },
+    applyRate(t){
+      // stretch the real clip so its bar length matches the standardized bar
+      this.realAudio.playbackRate = this.tempoMode === 'std' ? t.bar_s / this.barSeconds(t) : 1;
+    },
+    playReal(t){
+      if(this.playing && this.playKey === t.id + ':real'){ this.stop(); return; }
+      this.halt();
+      const a = new Audio('clips/' + t.id + '.m4a');
+      a.preservesPitch = true; a.mozPreservesPitch = true; a.webkitPreservesPitch = true;
+      this.realAudio = a; this.realTake = t; this.applyRate(t);
+      a.onended = () => this.stop();
+      a.onerror = () => { this.stop(); alert('no clip: clips/' + t.id + '.m4a (run ./make_clips.sh)'); };
+      this.playing = true; this.playKey = t.id + ':real'; this.activeId = t.id; this.head = 0;
+      a.play();
+    },
+    playRow(t){
+      if(this.playing && this.playKey === t.id){ this.stop(); return; }
+      const n = Math.max(1, Math.min(16, this.bars|0));
+      this.activeId = t.id;
+      this.startPlayback(Array(n).fill(t), t.id);
+    },
+    playAB(){
+      const A = this.takes.find(t => t.id === this.abA), B = this.takes.find(t => t.id === this.abB);
+      if(this.playing && this.playKey === 'ab'){ this.stop(); return; }
+      if(!A || !B) return;
+      const n = Math.max(1, Math.min(16, this.bars|0));
+      const list = [];
+      for(let i=0;i<n;i++){ list.push(A, B); }
+      this.activeId = A.id;
+      this.startPlayback(list, 'ab');
+    },
+  };
+}
+</script>
+</body>
+</html>
