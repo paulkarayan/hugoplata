@@ -1,0 +1,23 @@
+static/concertina/bounce_check.js
+  s_e320ead2ebe6f2::t_224389d46147c0 1-1091
+static/concertina/bounce_profiles.js
+  s_e320ead2ebe6f2::t_1445837d686a38 1-1134
+static/concertina/index.html
+  s_e320ead2ebe6f2::t_104f844eebac3e 1-399
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "66c6c9cbcb8d596348aa8775ae8646af5ef6de13",
+  "prompts": {},
+  "sessions": {
+    "s_e320ead2ebe6f2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "a1692cd7-d130-4a2f-a0fd-5b6459647383",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "paulkarayan <pk@unstructured.io>"
+    }
+  }
+}
