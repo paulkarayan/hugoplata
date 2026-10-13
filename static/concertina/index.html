@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="robots" content="noindex,nofollow,noarchive">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bounce View</title>
+  <title>Swing and Dance Drive in Anglo Concertina</title>
   <script src="https://cdn.tailwindcss.com/3.4.16"></script>
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet">
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js"></script>
@@ -45,6 +45,8 @@
       padding:.15rem .6rem; border-radius:999px; font-weight:700; }
     .badge-real{ background:var(--green-deep); color:var(--paper); font-family:var(--mono); font-size:.72rem;
       padding:.15rem .6rem; border-radius:999px; }
+    .badge-practice{ background:var(--ink-2); color:var(--amber); border:1px solid var(--amber); font-family:var(--mono);
+      font-size:.72rem; padding:.1rem .55rem; border-radius:999px; font-weight:700; text-decoration:none; }
     select, input[type=number]{ background:var(--ink-2); color:var(--paper); border:1px solid var(--line);
       border-radius:8px; padding:.3rem .5rem; font-size:.85rem; max-width:100%; }
     input[type=range]{ accent-color:var(--green); }
@@ -60,11 +62,10 @@
 <main class="max-w-5xl mx-auto px-4 py-6" x-data="bounce()" x-init="init()">
   <header class="mb-4">
     <div class="flex flex-wrap items-center gap-3">
-      <h1 class="text-2xl font-bold">bounce view</h1>
+      <h1 class="text-2xl font-bold">Swing and Dance Drive in Anglo Concertina</h1>
       <span x-show="source==='sample'" class="badge-sample" x-cloak>SAMPLE DATA (mock)</span>
-      <span x-show="source==='real'" class="badge-real" x-cloak>bounce_profiles.js</span>
     </div>
-    <p class="dim text-sm mt-1">One row = one bar. Line length = how long the note sounds. Thickness = loudness. Thin track = the slot until the next note.</p>
+    <p class="dim text-sm mt-1">How Mary MacNamara, Brenda Castles and I place and weight the notes in a bar. One row = one bar. Line length = how long the note sounds. Thickness = loudness. Thin track = the slot until the next note.</p>
   </header>
 
   <!-- tune tabs -->
@@ -103,10 +104,6 @@
         <button class="btn btn-sm btn-secondary" @click="playAB()" x-text="(playing && playKey==='ab') ? 'Stop' : 'A/B'"></button>
       </div>
     </div>
-    <p class="faint text-xs mt-2" x-show="tempoMode==='std'" x-cloak>
-      Standardized: every row is rescaled from bar fractions to the same beats per minute, so only swing, accent and note length differ.
-    </p>
-    <p class="faint text-xs mt-2">A/B plays one bar of A, then one bar of B, repeated (bars x 2 in total). Pitch is a fixed D major arpeggio so you hear rhythm, not melody.</p>
   </section>
 
   <!-- rows -->
@@ -117,9 +114,8 @@
         <button class="btn btn-sm btn-secondary" x-show="t.clip" x-cloak @click="playReal(t)" x-text="(playing && playKey===t.id+':real') ? 'Stop' : 'Real'"
                 title="play the actual recording (clips/ID.m4a), time-stretched to the standardized tempo when that is on"></button>
         <div class="font-semibold" x-text="t.label"></div>
-        <span class="vchip" x-show="check(t)" x-cloak :class="'v-' + (check(t) ? check(t).verdict.toLowerCase() : '')"
-              :title="checkTitle(t)" x-text="check(t) ? check(t).verdict : ''"></span>
-        <div class="faint text-xs mono" x-text="t.meter==='jig' ? '6/8 jig, 2 dotted-quarter beats' : 'hornpipe, 4 beats'"></div>
+        <a class="badge-practice" x-show="t.practice" x-cloak :href="t.report || null"
+           title="a practice take added by practice_report.py (open its bar-by-bar report)">practice</a>
       </div>
       <div class="flex flex-wrap gap-1.5 mb-2">
         <span class="chip">swing <b x-text="fmt(t.metrics.swing,2)"></b></span>
@@ -141,7 +137,6 @@
                :style="'left:' + headPct(t) + '%'"></div>
         </div>
       </div>
-      <p class="faint text-xs mt-1" x-text="t.notes_text"></p>
     </section>
   </template>
 
@@ -151,7 +146,6 @@
     <span class="sm:hidden">On a phone, swipe a plot sideways to see beats 3-4. </span>
     Green = on-beat note, amber = off-eighth (or later subdivision). Dashed ticks = where an even (straight) subdivision would fall;
     a swung off-eighth sits to the right of its dashed tick. Whiskers above notes = start-time IQR.
-    Jig rows are 6/8: beats 1-2 are dotted quarters.
   </footer>
 </main>
 
@@ -233,9 +227,6 @@ function bounce(){
           const xs = this.px((b + s/sub)/bpb);
           o += `<line x1="${xs}" x2="${xs}" y1="${TOP}" y2="${H-14}" style="stroke:var(--paper-faint);stroke-width:1.5;stroke-dasharray:4 5"/>`;
         }
-      }
-      if(t.meter==='jig'){
-        o += `<text x="${W-M}" y="${TOP-12}" text-anchor="end" style="fill:var(--paper-dim);font:18px var(--mono)">6/8: 2 dotted-quarter beats</text>`;
       }
       // baseline
       o += `<line x1="${this.px(0)}" x2="${this.px(1)}" y1="${MID}" y2="${MID}" style="stroke:var(--line);stroke-width:1"/>`;

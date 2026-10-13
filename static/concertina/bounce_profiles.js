@@ -366,7 +366,7 @@ window.BOUNCE_PROFILES = {
   },
   {
    "id": "pk_knee",
-   "label": "pk - Plains of Boyle (hornpipe), knee bounce (33-71 s)",
+   "label": "pk - Plains of Boyle (hornpipe), knee bounce",
    "segment_s": [
     33.0,
     71.0
